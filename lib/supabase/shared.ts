@@ -1,6 +1,8 @@
+
+/* daily modify record */
 import { getEnv } from "../env"
 
-export function getSupabasePublicConfig() { [modified]
+export function getSupabasePublicConfig() {
   const env = getEnv()
   return {
     url: env.NEXT_PUBLIC_SUPABASE_URL,

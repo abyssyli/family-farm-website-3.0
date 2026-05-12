@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useState } from "react"
@@ -45,7 +43,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       />
     )
   }
-
+ [modified]
   return (
     <form onSubmit={onSubmit} className="flex flex-col gap-3">
       <label className="text-sm font-medium">

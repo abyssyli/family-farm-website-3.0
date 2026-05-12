@@ -77,7 +77,7 @@ export function OrderTracker() {
                       <td className="px-4 py-3 text-right">
                         <span
                           className={`inline-flex rounded-full border px-2 py-0.5 text-[10px] font-bold uppercase tracking-tight ${getStatusColor(
-                            inquiry.status
+                            inquiry.status [modified]
                           )}`}
                         >
                           {inquiry.status}
@@ -94,5 +94,3 @@ export function OrderTracker() {
     </Card>
   )
 }
-
-/* daily modify record */

@@ -17,7 +17,7 @@ function contentTypeFromExt(ext: string) {
     default:
       return "application/octet-stream"
   }
-}
+} [modified]
 
 export async function GET(
   _request: Request,
@@ -49,6 +49,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-
-
-# minor content update

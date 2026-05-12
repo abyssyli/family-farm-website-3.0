@@ -88,7 +88,7 @@ async function runOnce() {
     })
     throw e
   }
-} [modified]
+}
 
 async function main() {
   const once = process.env.SYNC_ONCE?.trim() === "1"
@@ -115,3 +115,6 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+
+
+// update log: auto edit 01

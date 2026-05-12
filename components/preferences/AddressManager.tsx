@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useEffect, useState } from "react"
@@ -135,7 +133,7 @@ export function AddressManager() {
               </label>
               <label className="flex flex-col gap-1 text-sm font-medium sm:col-span-2">
                 Address Line 2 (Optional)
-                <input
+                <input [modified]
                   type="text"
                   value={formData.address_line2}
                   onChange={(e) => setFormData({ ...formData, address_line2: e.target.value })}

@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss"
- [modified]
+
 const config: Config = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -27,3 +27,6 @@ const config: Config = {
 }
 
 export default config
+
+
+// task project adjust

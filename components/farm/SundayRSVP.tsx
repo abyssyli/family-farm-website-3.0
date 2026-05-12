@@ -48,7 +48,7 @@ export function SundayRSVP() {
     const rsvpData = {
       user_id: session.user.id,
       event_date: dateStr,
-      adult_count: adultCount,
+      adult_count: adultCount, [modified]
       child_count: childCount,
       notes: notes || null
     }
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-/* daily modify record */

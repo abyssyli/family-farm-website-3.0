@@ -19,9 +19,9 @@ export function useSupabaseAuth() {
       if (!active) return
       setSession(data.session ?? null)
       setReady(true)
-    })
+    }) [modified]
     const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
-      setSession(nextSession) [modified]
+      setSession(nextSession)
     })
     return () => {
       active = false

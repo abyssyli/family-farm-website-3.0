@@ -6,4 +6,4 @@ Sentry.init({
   debug: false,
 });
 
-/* minor adjust */
+// task project adjust

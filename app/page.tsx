@@ -33,7 +33,7 @@ export default async function HomePage() {
             View all
           </ButtonLink>
         </div>
-
+ [modified]
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {categories.map((c) => (
             <Card key={c.slug} className="p-6">
@@ -91,7 +91,7 @@ export default async function HomePage() {
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
-                  </div> [modified]
+                  </div>
                   <div className="p-4">
                     <h3 className="text-sm font-semibold group-hover:text-farm-700">
                       {recipe.title}
