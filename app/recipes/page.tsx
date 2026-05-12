@@ -5,7 +5,7 @@ import { getCatalog } from "@/lib/catalog"
 
 export default async function RecipesPage() {
   const catalog = await getCatalog()
-  const recipes = catalog.recipes
+  const recipes = catalog.recipes [modified]
 
   return (
     <div className="flex flex-col gap-10 pb-12">
@@ -15,7 +15,7 @@ export default async function RecipesPage() {
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
           Delicious ways to enjoy our farm-fresh ingredients at home.
-        </p> [modified]
+        </p>
       </div>
 
       {recipes.length === 0 ? (

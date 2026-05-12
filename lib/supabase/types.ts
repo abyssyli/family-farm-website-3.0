@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 export type Json =
   | string
   | number
@@ -171,7 +169,7 @@ export type Database = {
           is_default?: boolean
           created_at?: string
           updated_at?: string
-        }
+        } [modified]
         Update: {
           name?: string
           phone?: string | null

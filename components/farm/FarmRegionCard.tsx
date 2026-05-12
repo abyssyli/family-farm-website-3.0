@@ -10,7 +10,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
         <div className="relative h-56 w-full sm:h-64">
           <Image
             src={region.imagePath}
-            alt={region.title} [modified]
+            alt={region.title}
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 33vw"
@@ -25,7 +25,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
         {region.ctaHref ? (
           <div className="mt-5">
             <ButtonLink href={region.ctaHref} variant="secondary">
-              {region.ctaLabel || "Explore"}
+              {region.ctaLabel || "Explore"} [modified]
             </ButtonLink>
           </div>
         ) : null}

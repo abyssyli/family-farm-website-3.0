@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useMemo, useState } from "react" [modified]
 import { Button } from "@/components/ui/Button"
 import { Modal } from "@/components/ui/Modal"
 import { LoginForm } from "./LoginForm"
@@ -55,5 +55,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-/* minor adjust */

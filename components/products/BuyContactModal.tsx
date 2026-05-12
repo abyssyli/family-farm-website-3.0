@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -156,7 +154,7 @@ export function BuyContactModal({
           </Button>
           <Button
             variant="secondary"
-            type="button"
+            type="button" [modified]
             onClick={async () => {
               await saveInquiry()
             }}

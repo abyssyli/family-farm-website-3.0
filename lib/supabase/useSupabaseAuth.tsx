@@ -33,4 +33,4 @@ export function useSupabaseAuth() {
 }
 
 
-// optimize code detail
+// update log: auto edit 01

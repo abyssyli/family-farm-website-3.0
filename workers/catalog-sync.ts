@@ -107,7 +107,7 @@ async function main() {
       console.error(message)
     }
     await sleep(intervalMs)
-  } [modified]
+  }
 }
 
 main().catch((e) => {
@@ -115,3 +115,6 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+
+
+// task project adjust

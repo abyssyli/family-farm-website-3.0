@@ -26,7 +26,7 @@ export function SundayRSVP() {
 
   async function fetchRSVP() {
     if (!supabase || !session) return
-    const { data, error } = await supabase [modified]
+    const { data, error } = await supabase
       .from("sunday_rsvps")
       .select("*")
       .eq("user_id", session.user.id)
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+# minor content update

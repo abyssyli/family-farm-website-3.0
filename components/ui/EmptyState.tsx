@@ -8,7 +8,7 @@ export function EmptyState({
   title: string
   message: string
   action?: React.ReactNode
-}) {
+}) { [modified]
   return (
     <Card>
       <CardBody>
@@ -23,6 +23,3 @@ export function EmptyState({
     </Card>
   )
 }
-
-
-// optimize code detail

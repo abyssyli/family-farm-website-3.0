@@ -117,7 +117,7 @@ export function StoryHero() {
               </svg>
             </button>
           </div>
-        </div> [modified]
+        </div>
         <div className="mt-6 flex flex-wrap gap-3">
           <ButtonLink href="/products">Browse products</ButtonLink>
           <ButtonLink href="/products/eggs" variant="secondary">
@@ -138,3 +138,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+// optimize code detail

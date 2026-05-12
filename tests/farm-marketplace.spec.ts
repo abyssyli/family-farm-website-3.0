@@ -1,8 +1,6 @@
-
-/* minor adjust */
 import { test, expect } from "@playwright/test"
 
-test("homepage renders and navigation works", async ({ page }) => {
+test("homepage renders and navigation works", async ({ page }) => { [modified]
   await page.goto("/")
   await expect(page.getByRole("heading", { name: /marketplace/i })).toBeVisible()
 

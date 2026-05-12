@@ -141,4 +141,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   )
 }
 
-// task project adjust
+# minor content update

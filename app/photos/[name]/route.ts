@@ -1,9 +1,7 @@
-
-# minor content update
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
-import { createServerSupabaseClient } from "@/lib/supabase/server"
+import { createServerSupabaseClient } from "@/lib/supabase/server" [modified]
 
 function contentTypeFromExt(ext: string) {
   switch (ext.toLowerCase()) {
@@ -51,4 +49,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-
