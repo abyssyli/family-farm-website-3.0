@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import { z } from "zod"
 
 const envSchema = z.object({
@@ -46,5 +48,3 @@ export function getPublicEnv() {
     skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL,
   }
 }
-
-# minor content update

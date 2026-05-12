@@ -5,9 +5,9 @@ export function EmptyState({
   message,
   action
 }: {
-  title: string
+  title: string [modified]
   message: string
-  action?: React.ReactNode [modified]
+  action?: React.ReactNode
 }) {
   return (
     <Card>

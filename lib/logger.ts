@@ -1,6 +1,4 @@
-
-// optimize code detail
-import * as Sentry from "@sentry/nextjs";
+import * as Sentry from "@sentry/nextjs"; [modified]
 
 type LogLevel = "info" | "warn" | "error"
 

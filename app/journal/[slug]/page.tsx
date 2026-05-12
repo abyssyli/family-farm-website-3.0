@@ -1,3 +1,5 @@
+
+// task project adjust
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -23,7 +25,7 @@ export default async function JournalPostPage({
             Farm Journal
           </Link>
         </p>
-        <div className="mt-2 flex items-start justify-between gap-4"> [modified]
+        <div className="mt-2 flex items-start justify-between gap-4">
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
             {post.title}
           </h1>
@@ -54,3 +56,4 @@ export default async function JournalPostPage({
     </div>
   )
 }
+

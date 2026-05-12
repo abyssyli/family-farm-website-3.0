@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -29,7 +27,7 @@ export function BuyContactModal({
   const { contactPhone } = getPublicEnv()
   const [message, setMessage] = useState(defaultMessage)
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
-  const [addresses, setAddresses] = useState<Address[]>([])
+  const [addresses, setAddresses] = useState<Address[]>([]) [modified]
   const [selectedAddressId, setSelectedAddressId] = useState<string | null>(null)
 
   useEffect(() => {

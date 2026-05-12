@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import Image from "next/image"
@@ -122,7 +124,7 @@ export function ProductDetail({
             <p className="mt-4 max-w-prose text-base text-zinc-700 whitespace-pre-wrap">
               {product.description}
             </p>
-          ) : null} [modified]
+          ) : null}
           {product.priceHint ? (
             <p className="mt-4 text-sm font-medium text-zinc-700">
               {product.priceHint}
@@ -157,4 +159,5 @@ export function ProductDetail({
     </div>
   )
 }
+
 

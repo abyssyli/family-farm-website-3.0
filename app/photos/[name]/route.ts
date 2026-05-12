@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -28,7 +26,7 @@ export async function GET(
   const supabase = createServerSupabaseClient()
   const { data: { session } } = await (supabase?.auth.getSession() ?? { data: { session: null } })
 
-  if (!session) {
+  if (!session) { [modified]
     return new NextResponse("Unauthorized", { status: 401 })
   }
 
@@ -51,4 +49,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-

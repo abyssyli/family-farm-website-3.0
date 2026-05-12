@@ -7,7 +7,7 @@ export type Json =
   | Json[]
 
 export type Database = {
-  public: {
+  public: { [modified]
     Tables: {
       categories: {
         Row: { id: string; slug: string; name: string; sort_order: number }
@@ -362,5 +362,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-// task project adjust

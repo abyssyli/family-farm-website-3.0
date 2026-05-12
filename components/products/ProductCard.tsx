@@ -18,7 +18,7 @@ export function ProductCard({
             src={product.imagePath}
             alt={product.name}
             fill
-            className="object-cover"
+            className="object-cover" [modified]
             sizes="(max-width: 768px) 100vw, 33vw"
           />
         </div>
@@ -60,6 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-
-
-/* minor adjust */

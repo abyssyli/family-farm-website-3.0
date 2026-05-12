@@ -27,11 +27,11 @@ export default async function HomePage() {
             <p className="mt-2 text-sm text-zinc-700">
               Chicken, eggs and woodcraft are local pickup. Skincare ships via
               Lisa’s shop.
-            </p> [modified]
+            </p>
           </div>
           <ButtonLink href="/products" variant="secondary" className="shrink-0">
             View all
-          </ButtonLink>
+          </ButtonLink> [modified]
         </div>
 
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

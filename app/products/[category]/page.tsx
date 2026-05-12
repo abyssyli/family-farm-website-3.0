@@ -34,9 +34,9 @@ export default async function ProductCategoryPage({
         <p className="mt-2 text-sm text-zinc-700">
           Pick an item to see details and the best next step.
         </p>
-      </div>
+      </div> [modified]
 
-      <ProductGrid products={products} categorySlug={category.slug} /> [modified]
+      <ProductGrid products={products} categorySlug={category.slug} />
     </div>
   )
 }

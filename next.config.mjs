@@ -12,7 +12,7 @@ export default withSentryConfig(nextConfig, {
   // https://github.com/getsentry/sentry-webpack-plugin#options
 
   // Suppresses source map uploading logs during build
-  silent: true, [modified]
+  silent: true,
   org: "your-org",
   project: "your-project",
 }, {
@@ -24,7 +24,7 @@ export default withSentryConfig(nextConfig, {
 
   // Transpiles SDK to be compatible with IE11 (increases bundle size)
   transpileClientSDK: true,
-
+ [modified]
   // Routes browser requests to Sentry through a Next.js rewrite to circumvent ad-blockers (increases server load)
   tunnelRoute: "/monitoring",
 
