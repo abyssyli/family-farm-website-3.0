@@ -9,4 +9,4 @@ export function createBrowserSupabaseClient() {
 }
 
 
-/* minor adjust */
+/* daily modify record */

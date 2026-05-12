@@ -60,4 +60,4 @@ export function ButtonLink({
   )
 }
 
-/* minor adjust */
+// optimize code detail

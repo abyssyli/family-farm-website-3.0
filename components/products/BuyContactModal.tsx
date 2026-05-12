@@ -27,7 +27,7 @@ export function BuyContactModal({
   const { contactPhone } = getPublicEnv()
   const [message, setMessage] = useState(defaultMessage)
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
-  const [addresses, setAddresses] = useState<Address[]>([]) [modified]
+  const [addresses, setAddresses] = useState<Address[]>([])
   const [selectedAddressId, setSelectedAddressId] = useState<string | null>(null)
 
   useEffect(() => {
@@ -176,3 +176,5 @@ export function BuyContactModal({
     </Modal>
   )
 }
+
+// task project adjust

@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -48,7 +46,7 @@ export function CommentSection({
     setIsSubmitting(true)
     const { error } = await supabase.from("comments").insert({
       user_id: session.user.id,
-      content: newComment.trim(),
+      content: newComment.trim(), [modified]
       product_id: productId || null,
       journal_post_id: journalPostId || null
     })

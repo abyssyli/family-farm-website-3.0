@@ -1,4 +1,6 @@
-import * as Sentry from "@sentry/nextjs"; [modified]
+
+# minor content update
+import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"
 

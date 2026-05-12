@@ -26,7 +26,7 @@ export async function GET(
   const supabase = createServerSupabaseClient()
   const { data: { session } } = await (supabase?.auth.getSession() ?? { data: { session: null } })
 
-  if (!session) { [modified]
+  if (!session) {
     return new NextResponse("Unauthorized", { status: 401 })
   }
 
@@ -49,3 +49,4 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+ [modified]

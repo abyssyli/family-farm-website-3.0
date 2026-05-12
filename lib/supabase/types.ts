@@ -7,7 +7,7 @@ export type Json =
   | Json[]
 
 export type Database = {
-  public: { [modified]
+  public: {
     Tables: {
       categories: {
         Row: { id: string; slug: string; name: string; sort_order: number }
@@ -108,7 +108,7 @@ export type Database = {
           image_path?: string | null
           cta_label?: string | null
           cta_href?: string | null
-          x: number
+          x: number [modified]
           y: number
         }
         Update: {

@@ -5,12 +5,12 @@ export function EmptyState({
   message,
   action
 }: {
-  title: string [modified]
+  title: string
   message: string
   action?: React.ReactNode
 }) {
   return (
-    <Card>
+    <Card> [modified]
       <CardBody>
         <div className="flex flex-col gap-3">
           <div>

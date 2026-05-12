@@ -1,7 +1,9 @@
+
+// task project adjust
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
-import { getCatalog } from "@/lib/catalog" [modified]
+import { getCatalog } from "@/lib/catalog"
 
 export default async function RecipesPage() {
   const catalog = await getCatalog()

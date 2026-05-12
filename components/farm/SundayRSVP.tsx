@@ -83,7 +83,7 @@ export function SundayRSVP() {
               <label className="flex flex-col gap-1 text-sm font-medium">
                 Adults
                 <input
-                  type="number"
+                  type="number" [modified]
                   min={1}
                   max={20}
                   value={adultCount}
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-/* daily modify record */

@@ -31,7 +31,7 @@ export default async function HomePage() {
           </div>
           <ButtonLink href="/products" variant="secondary" className="shrink-0">
             View all
-          </ButtonLink> [modified]
+          </ButtonLink>
         </div>
 
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -65,7 +65,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {catalog.recipes.length > 0 && (
+      {catalog.recipes.length > 0 && ( [modified]
         <section>
           <div className="flex items-end justify-between gap-6">
             <div>
