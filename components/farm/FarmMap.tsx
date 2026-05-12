@@ -33,7 +33,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
       <div>
         <h2 className="text-xl font-semibold tracking-tight">
           Explore the farm
-        </h2>
+        </h2> [modified]
         <p className="mt-2 text-sm text-zinc-700">
           Tap a region to learn what we’re making this season.
         </p>
@@ -92,5 +92,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
-
-/* minor adjust */

@@ -12,7 +12,7 @@ export function ProductCard({
 }) {
   return (
     <Card className="overflow-hidden">
-      {product.imagePath ? (
+      {product.imagePath ? ( [modified]
         <div className="relative h-48 w-full">
           <Image
             src={product.imagePath}
@@ -60,6 +60,3 @@ export function ProductCard({
     </Card>
   )
 }
-
-
-// optimize code detail

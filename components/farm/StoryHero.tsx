@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Image from "next/image"
@@ -127,7 +129,7 @@ export function StoryHero() {
       </div>
       <div className="relative overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
         <Image
-          src="/photos/Home.jpg" [modified]
+          src="/photos/Home.jpg"
           alt="Paula’s farm home"
           width={1200}
           height={900}

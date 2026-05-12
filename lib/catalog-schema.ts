@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { z } from "zod"
 
 export const CategorySchema = z.object({
@@ -55,7 +53,7 @@ export const RecipeSchema = z.object({
 
 export const CatalogSchema = z.object({
   categories: z.array(CategorySchema),
-  products: z.array(ProductSchema),
+  products: z.array(ProductSchema), [modified]
   journalPosts: z.array(JournalPostSchema).default([]),
   recipes: z.array(RecipeSchema).default([]),
   farmRegions: z.array(FarmRegionSchema).default([])
@@ -67,4 +65,3 @@ export type CatalogProduct = z.infer<typeof ProductSchema>
 export type CatalogJournalPost = z.infer<typeof JournalPostSchema>
 export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 export type CatalogRecipe = z.infer<typeof RecipeSchema>
-

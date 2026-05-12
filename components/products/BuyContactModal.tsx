@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -169,7 +167,7 @@ export function BuyContactModal({
               supabase
                 ? "Save inquiry"
                 : "Configure Supabase to save inquiries"
-            }
+            } [modified]
           >
             {status === "saved" ? "Saved" : status === "saving" ? "Saving…" : "Save"}
           </Button>

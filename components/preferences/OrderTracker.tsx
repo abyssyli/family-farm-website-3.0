@@ -50,7 +50,7 @@ export function OrderTracker() {
 
   return (
     <Card>
-      <CardHeader title="Order Tracking" subtitle="View your recent inquiries and their status." /> [modified]
+      <CardHeader title="Order Tracking" subtitle="View your recent inquiries and their status." />
       <CardBody>
         <div className="flex flex-col gap-4">
           {inquiries.length === 0 ? (
@@ -94,3 +94,5 @@ export function OrderTracker() {
     </Card>
   )
 }
+
+// update log: auto edit 01

@@ -22,9 +22,9 @@ export function Modal({
   useEffect(() => {
     if (!open) return
     const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose() [modified]
+      if (e.key === "Escape") onClose()
     }
-    window.addEventListener("keydown", onKeyDown)
+    window.addEventListener("keydown", onKeyDown) [modified]
     return () => window.removeEventListener("keydown", onKeyDown)
   }, [open, onClose])
 

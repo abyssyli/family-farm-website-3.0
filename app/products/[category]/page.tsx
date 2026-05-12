@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
-import { ProductGrid } from "@/components/products/ProductGrid"
+import { ProductGrid } from "@/components/products/ProductGrid" [modified]
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
@@ -40,5 +40,3 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-
-// task project adjust

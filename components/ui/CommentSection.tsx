@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/Button"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import Image from "next/image"
-
+ [modified]
 export function CommentSection({
   productId,
   journalPostId
@@ -19,7 +19,7 @@ export function CommentSection({
 
   useEffect(() => {
     if (supabase) {
-      fetchComments() [modified]
+      fetchComments()
     }
   }, [supabase, productId, journalPostId])
 

@@ -35,10 +35,8 @@ export default withSentryConfig(nextConfig, {
   disableLogger: true,
 
   // Enables automatic instrumentation of Vercel Cron Monitors.
-  // See the following for more information:
+  // See the following for more information: [modified]
   // https://docs.sentry.io/product/crons/
   // https://vercel.com/docs/cron-jobs
   automaticVercelMonitors: true,
 });
-
-// update log: auto edit 01

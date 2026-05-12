@@ -3,7 +3,7 @@ import { forwardRef } from "react"
 
 type Variant = "primary" | "secondary" | "ghost"
 
-function cn(...parts: Array<string | false | null | undefined>) {
+function cn(...parts: Array<string | false | null | undefined>) { [modified]
   return parts.filter(Boolean).join(" ")
 }
 
@@ -43,7 +43,7 @@ export function ButtonLink({
   const external = /^https?:\/\//i.test(href)
   if (external) {
     return (
-      <a [modified]
+      <a
         href={href}
         target="_blank"
         rel="noreferrer noopener"

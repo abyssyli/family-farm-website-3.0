@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Image from "next/image" [modified]
+import Image from "next/image"
 import { notFound } from "next/navigation"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
@@ -13,7 +13,7 @@ export default async function RecipeDetailPage({
   const catalog = await getCatalog()
   const recipe = catalog.recipes.find((r) => r.slug === params.slug)
   if (!recipe) notFound()
-
+ [modified]
   return (
     <div className="flex flex-col gap-8 pb-12">
       <div className="flex flex-col gap-4">

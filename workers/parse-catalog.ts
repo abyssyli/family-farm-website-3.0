@@ -24,4 +24,4 @@ export async function loadCatalogFromSource(): Promise<{
 }
 
 
-// task project adjust
+/* daily modify record */

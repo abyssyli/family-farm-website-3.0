@@ -40,7 +40,7 @@ export function AddressManager() {
       setAddresses(data)
     }
   }
-
+ [modified]
   async function handleSave() {
     if (!supabase || !session) return
 
@@ -237,5 +237,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-# minor content update

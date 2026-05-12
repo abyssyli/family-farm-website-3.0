@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useState } from "react"
@@ -9,7 +7,7 @@ import { getPublicEnv } from "@/lib/env"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductActions({
-  product,
+  product, [modified]
   categorySlug
 }: {
   product: CatalogProduct

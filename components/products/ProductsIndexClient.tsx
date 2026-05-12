@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import Link from "next/link"
@@ -93,7 +95,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           </p>
         </div>
         {lastUpdate ? (
-          <p className="text-xs text-zinc-600"> [modified]
+          <p className="text-xs text-zinc-600">
             Updated {lastUpdate.toLocaleTimeString()}
           </p>
         ) : null}

@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -81,7 +83,7 @@ export default async function HomePage() {
             </ButtonLink>
           </div>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {catalog.recipes.slice(0, 3).map((recipe) => ( [modified]
+            {catalog.recipes.slice(0, 3).map((recipe) => (
               <Link key={recipe.id} href={`/recipes/${recipe.slug}`} className="group">
                 <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
                   <div className="relative h-40 w-full">
