@@ -88,7 +88,7 @@ export function CommentSection({
         </div>
       )}
 
-      <div className="flex flex-col gap-6"> [modified]
+      <div className="flex flex-col gap-6">
         {comments.length === 0 ? (
           <p className="text-sm text-zinc-500 italic">No comments yet. Be the first!</p>
         ) : (
@@ -110,3 +110,5 @@ export function CommentSection({
     </div>
   )
 }
+
+// optimize code detail

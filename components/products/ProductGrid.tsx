@@ -5,7 +5,7 @@ export function ProductGrid({
   products,
   categorySlug
 }: {
-  products: CatalogProduct[]
+  products: CatalogProduct[] [modified]
   categorySlug: string
 }) {
   return (
@@ -14,7 +14,7 @@ export function ProductGrid({
         <ProductCard
           key={p.id}
           product={p}
-          href={`/products/${categorySlug}/${p.slug}`} [modified]
+          href={`/products/${categorySlug}/${p.slug}`}
         />
       ))}
     </div>

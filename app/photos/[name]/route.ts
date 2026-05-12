@@ -34,7 +34,7 @@ export async function GET(
   if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) {
     return new NextResponse("Not found", { status: 404 })
   }
- [modified]
+
   try {
     const filePath = join(process.cwd(), "photo", name)
     const bytes = await readFile(filePath)
@@ -49,3 +49,6 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+
+
+// task project adjust

@@ -1,3 +1,5 @@
+
+/* minor adjust */
 export type Json =
   | string
   | number
@@ -265,7 +267,7 @@ export type Database = {
           content: string
           image_urls: string[]
           created_at: string
-        } [modified]
+        }
         Insert: {
           id?: string
           user_id: string

@@ -65,7 +65,7 @@ export function ProductDetail({
                           d="M12.78 15.53a.75.75 0 0 1-1.06 0l-5-5a.75.75 0 0 1 0-1.06l5-5a.75.75 0 1 1 1.06 1.06L8.31 10l4.47 4.47a.75.75 0 0 1 0 1.06Z"
                           clipRule="evenodd"
                         />
-                      </svg> [modified]
+                      </svg>
                     </button>
                   </div>
                   <div className="absolute inset-y-0 right-0 flex items-center p-2 opacity-0 transition-opacity group-hover:opacity-100">
@@ -158,3 +158,6 @@ export function ProductDetail({
   )
 }
 
+
+
+// update log: auto edit 01

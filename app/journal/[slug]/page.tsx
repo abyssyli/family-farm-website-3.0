@@ -36,7 +36,7 @@ export default async function JournalPostPage({
         ) : null}
       </div>
 
-      <Card>
+      <Card> [modified]
         <CardBody>
           <div className="prose prose-zinc max-w-none">
             <p className="whitespace-pre-wrap">{post.body}</p>
@@ -54,6 +54,3 @@ export default async function JournalPostPage({
     </div>
   )
 }
-
-
-// task project adjust

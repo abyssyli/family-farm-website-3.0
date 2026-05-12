@@ -6,4 +6,4 @@ Sentry.init({
   debug: false,
 });
 
-/* daily modify record */
+// task project adjust

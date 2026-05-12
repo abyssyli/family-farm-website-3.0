@@ -32,7 +32,7 @@ export function PreferencesForm({
 
   async function save() {
     if (!supabase || !userId) return
-    setStatus("saving") [modified]
+    setStatus("saving")
     await supabase.from("user_preferences").upsert({
       user_id: userId,
       preferred_categories: selected
@@ -108,3 +108,6 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+
+// task project adjust
