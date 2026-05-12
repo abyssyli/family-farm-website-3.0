@@ -1,5 +1,5 @@
 
-# minor content update
+// update log: auto edit 01
 import { withSentryConfig } from "@sentry/nextjs";
 
 /** @type {import('next').NextConfig} */

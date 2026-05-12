@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -90,7 +88,7 @@ async function runOnce() {
     })
     throw e
   }
-}
+} [modified]
 
 async function main() {
   const once = process.env.SYNC_ONCE?.trim() === "1"
@@ -117,4 +115,3 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
-

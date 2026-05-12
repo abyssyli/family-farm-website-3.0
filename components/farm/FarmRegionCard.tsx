@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// task project adjust
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"

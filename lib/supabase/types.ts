@@ -266,7 +266,7 @@ export type Database = {
           image_urls: string[]
           created_at: string
         }
-        Insert: {
+        Insert: { [modified]
           id?: string
           user_id: string
           product_id?: string | null
@@ -362,5 +362,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-// task project adjust

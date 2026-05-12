@@ -3,7 +3,7 @@ import { test, expect } from "@playwright/test"
 test("homepage renders and navigation works", async ({ page }) => {
   await page.goto("/")
   await expect(page.getByRole("heading", { name: /marketplace/i })).toBeVisible()
- [modified]
+
   await page.getByRole("navigation").getByRole("link", { name: "Products" }).click()
   await expect(page.getByRole("heading", { name: "Products" })).toBeVisible()
 
@@ -20,7 +20,7 @@ test("homepage renders and navigation works", async ({ page }) => {
 
 test("skincare category points to BeakerGold", async ({ page }) => {
   await page.goto("/products")
-  const href = await page
+  const href = await page [modified]
     .getByRole("link", { name: /Browse Lisa’s Skincare/i })
     .getAttribute("href")
   expect(href).toBe(
