@@ -1,12 +1,12 @@
 "use client"
- [modified]
+
 import { useState } from "react"
 import { Button, ButtonLink } from "@/components/ui/Button"
 import { BuyContactModal } from "./BuyContactModal"
 import { getPublicEnv } from "@/lib/env"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
-export function ProductActions({
+export function ProductActions({ [modified]
   product,
   categorySlug
 }: {

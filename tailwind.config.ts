@@ -1,3 +1,5 @@
+
+# minor content update
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -20,10 +22,11 @@ const config: Config = {
           800: "#3f4b27",
           900: "#354022"
         }
-      } [modified]
+      }
     }
   },
   plugins: []
 }
 
 export default config
+

@@ -1,5 +1,5 @@
 
-# minor content update
+// optimize code detail
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"

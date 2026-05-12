@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head> [modified]
+      <head>
         <meta name="format-detection" content="telephone=no" />
       </head>
       <body className="min-h-screen">
@@ -65,3 +65,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+# minor content update

@@ -52,5 +52,8 @@ export default async function JournalPostPage({
         </ButtonLink>
       </div>
     </div>
-  ) [modified]
+  )
 }
+
+
+/* minor adjust */

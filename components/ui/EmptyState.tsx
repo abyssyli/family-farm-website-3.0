@@ -1,5 +1,5 @@
 
-# minor content update
+/* daily modify record */
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({

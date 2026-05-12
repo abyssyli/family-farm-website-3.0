@@ -8,7 +8,7 @@ function sleep(ms: number) {
 async function runOnce() {
   const supabase = createServiceRoleSupabaseClient()
   if (!supabase) {
-    throw new Error( [modified]
+    throw new Error(
       "Missing Supabase config. Set NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY."
     )
   }
@@ -115,3 +115,6 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+
+
+// task project adjust

@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { getEnv } from "../env"
 
 export function getSupabasePublicConfig() {
@@ -6,7 +8,7 @@ export function getSupabasePublicConfig() {
     url: env.NEXT_PUBLIC_SUPABASE_URL,
     anonKey: env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
   }
-} [modified]
+}
 
 export function getSupabaseServiceRoleKey() {
   const env = getEnv()

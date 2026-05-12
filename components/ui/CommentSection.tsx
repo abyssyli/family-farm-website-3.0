@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -49,7 +51,7 @@ export function CommentSection({
       content: newComment.trim(),
       product_id: productId || null,
       journal_post_id: journalPostId || null
-    }) [modified]
+    })
 
     if (!error) {
       setNewComment("")

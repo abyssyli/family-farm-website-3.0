@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react"
 import { Button } from "@/components/ui/Button"
 import { Modal } from "@/components/ui/Modal"
-import { LoginForm } from "./LoginForm"
+import { LoginForm } from "./LoginForm" [modified]
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
 export function UserMenu() {
@@ -53,5 +53,5 @@ export function UserMenu() {
         Sign out
       </Button>
     </div>
-  ) [modified]
+  )
 }

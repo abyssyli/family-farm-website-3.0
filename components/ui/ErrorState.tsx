@@ -1,11 +1,11 @@
 import { Card, CardBody } from "./Card"
-
+ [modified]
 export function ErrorState({
   title,
   message,
   action
 }: {
-  title: string [modified]
+  title: string
   message: string
   action?: React.ReactNode
 }) {

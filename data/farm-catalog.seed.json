@@ -1,5 +1,3 @@
-
-/* daily modify record */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -261,7 +259,7 @@
     {
       "id": "skincare-muscle-creme",
       "categorySlug": "skincare",
-      "slug": "muscle-creme",
+      "slug": "muscle-creme", [modified]
       "name": "Muscle Crème",
       "description": "A soothing crème made with botanicals like boswellia, comfrey, peppermint, and eucalyptus.",
       "imagePath": "/photos/background.jpg",
