@@ -1,9 +1,9 @@
-import { getCatalog } from "@/lib/catalog"
+import { getCatalog } from "@/lib/catalog" [modified]
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
 import { OrderTracker } from "@/components/preferences/OrderTracker"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
-import { UserMenu } from "@/components/auth/UserMenu" [modified]
+import { UserMenu } from "@/components/auth/UserMenu"
 
 export default async function AccountPage() {
   const catalog = await getCatalog()

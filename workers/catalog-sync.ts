@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -38,7 +40,7 @@ async function runOnce() {
   const journalPosts = catalog.journalPosts.map((j) => ({
     id: j.id,
     slug: j.slug,
-    title: j.title, [modified]
+    title: j.title,
     excerpt: j.excerpt,
     body: j.body,
     published_at: j.publishedAt,
@@ -115,3 +117,4 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+

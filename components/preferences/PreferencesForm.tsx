@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -55,7 +53,7 @@ export function PreferencesForm({
             Supabase isn’t configured in this environment. Add env vars to enable
             saved preferences.
           </p>
-        ) : !userId ? (
+        ) : !userId ? ( [modified]
           <p className="text-sm text-zinc-700">
             Sign in to save preferences to your account.
           </p>
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

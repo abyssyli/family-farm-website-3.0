@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react"
 import type { Session } from "@supabase/supabase-js"
 import { createBrowserSupabaseClient } from "./client"
- [modified]
+
 export function useSupabaseAuth() {
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
   const [session, setSession] = useState<Session | null>(null)
@@ -19,7 +19,7 @@ export function useSupabaseAuth() {
       if (!active) return
       setSession(data.session ?? null)
       setReady(true)
-    })
+    }) [modified]
     const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession)
     })

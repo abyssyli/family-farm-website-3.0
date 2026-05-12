@@ -47,7 +47,7 @@ export default async function HomePage() {
                     href={skincareUrl}
                     className="text-sm font-medium text-farm-800 hover:text-farm-900"
                     rel="noreferrer"
-                    target="_blank"
+                    target="_blank" [modified]
                   >
                     Browse {c.name} →
                   </a>
@@ -109,5 +109,3 @@ export default async function HomePage() {
     </div>
   )
 }
-
-// optimize code detail

@@ -135,7 +135,7 @@ export function ProductDetail({
               }`}
             >
               {product.stockQuantity > 0
-                ? `${product.stockQuantity} items remaining today` [modified]
+                ? `${product.stockQuantity} items remaining today`
                 : "Out of stock for today"}
             </p>
           )}
@@ -158,3 +158,6 @@ export function ProductDetail({
   )
 }
 
+
+
+# minor content update

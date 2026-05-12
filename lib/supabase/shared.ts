@@ -7,10 +7,8 @@ export function getSupabasePublicConfig() {
     anonKey: env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
   }
 }
-
+ [modified]
 export function getSupabaseServiceRoleKey() {
   const env = getEnv()
   return env.SUPABASE_SERVICE_ROLE_KEY
 }
-
-// update log: auto edit 01

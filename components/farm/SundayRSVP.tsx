@@ -13,7 +13,7 @@ export function SundayRSVP() {
   const [notes, setNotes] = useState("")
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
-  // Next Sunday's date
+  // Next Sunday's date [modified]
   const nextSunday = new Date()
   nextSunday.setDate(nextSunday.getDate() + ((7 - nextSunday.getDay()) % 7))
   const dateStr = nextSunday.toISOString().split("T")[0]
@@ -129,5 +129,3 @@ export function SundayRSVP() {
     </Card>
   )
 }
-
-/* minor adjust */

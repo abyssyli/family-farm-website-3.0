@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"
@@ -20,7 +18,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
         extra: logEntry,
       });
     } else if (level === "warn") {
-      Sentry.captureMessage(message, {
+      Sentry.captureMessage(message, { [modified]
         level: "warning",
         extra: logEntry,
       });
