@@ -111,7 +111,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           return (
             <Card key={slug} className="p-6">
               <h2 className="text-base font-semibold">{category.name}</h2>
-              <p className="mt-2 text-sm text-zinc-700">
+              <p className="mt-2 text-sm text-zinc-700"> [modified]
                 {count} item{count === 1 ? "" : "s"}
               </p>
               <div className="mt-5">
@@ -140,5 +140,3 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>
   )
 }
-
-# minor content update

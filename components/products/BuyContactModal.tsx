@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -154,7 +156,7 @@ export function BuyContactModal({
           </Button>
           <Button
             variant="secondary"
-            type="button" [modified]
+            type="button"
             onClick={async () => {
               await saveInquiry()
             }}

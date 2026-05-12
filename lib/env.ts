@@ -1,5 +1,3 @@
-
-# minor content update
 import { z } from "zod"
 
 const envSchema = z.object({
@@ -45,6 +43,6 @@ export function getPublicEnv() {
   const env = getEnv()
   return {
     contactPhone: env.NEXT_PUBLIC_CONTACT_PHONE,
-    skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL,
+    skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL, [modified]
   }
 }

@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"
@@ -10,7 +12,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
     message,
     ...data,
   }
- [modified]
+
   if (process.env.NODE_ENV === "production") {
     // Send to Sentry if it's an error or warning
     if (level === "error") {

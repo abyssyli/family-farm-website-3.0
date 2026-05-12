@@ -1,5 +1,5 @@
 
-# minor content update
+// task project adjust
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({

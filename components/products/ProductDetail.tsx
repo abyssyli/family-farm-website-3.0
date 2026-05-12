@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import Image from "next/image"
@@ -159,5 +161,3 @@ export function ProductDetail({
 }
 
 
-
-/* daily modify record */

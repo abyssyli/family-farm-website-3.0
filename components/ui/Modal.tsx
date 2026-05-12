@@ -20,7 +20,7 @@ export function Modal({
   className?: string
 }) {
   useEffect(() => {
-    if (!open) return [modified]
+    if (!open) return
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose()
     }
@@ -61,3 +61,6 @@ export function Modal({
     </div>
   )
 }
+
+
+/* minor adjust */

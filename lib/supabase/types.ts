@@ -169,7 +169,7 @@ export type Database = {
           is_default?: boolean
           created_at?: string
           updated_at?: string
-        } [modified]
+        }
         Update: {
           name?: string
           phone?: string | null
@@ -362,3 +362,5 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
+
+/* daily modify record */

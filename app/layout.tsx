@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+// task project adjust
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"

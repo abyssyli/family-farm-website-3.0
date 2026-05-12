@@ -59,7 +59,7 @@ export function CommentSection({
   }
 
   return (
-    <div className="mt-12 flex flex-col gap-8 border-t border-zinc-200 pt-12">
+    <div className="mt-12 flex flex-col gap-8 border-t border-zinc-200 pt-12"> [modified]
       <div className="flex flex-col gap-2">
         <h2 className="text-xl font-semibold">Comments & Reviews</h2>
         <p className="text-sm text-zinc-600">
@@ -110,5 +110,3 @@ export function CommentSection({
     </div>
   )
 }
-
-/* minor adjust */

@@ -1,5 +1,3 @@
-
-// optimize code detail
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -67,7 +65,7 @@ export async function getCatalog(): Promise<Catalog> {
   const normalizeFarmRegionImagePath = (slug: string, imagePath: string | null) => {
     if (slug === "chicken-coop") {
       return imagePath &&
-        (imagePath.includes("/photos/chicken") || imagePath.includes("/photos/egg"))
+        (imagePath.includes("/photos/chicken") || imagePath.includes("/photos/egg")) [modified]
         ? imagePath
         : "/photos/chicken.jpg"
     }

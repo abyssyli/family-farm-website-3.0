@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
-import { createServerSupabaseClient } from "@/lib/supabase/server" [modified]
+import { createServerSupabaseClient } from "@/lib/supabase/server"
 
 function contentTypeFromExt(ext: string) {
   switch (ext.toLowerCase()) {
@@ -9,7 +9,7 @@ function contentTypeFromExt(ext: string) {
     case ".jpeg":
       return "image/jpeg"
     case ".png":
-      return "image/png"
+      return "image/png" [modified]
     case ".webp":
       return "image/webp"
     case ".gif":
