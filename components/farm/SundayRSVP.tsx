@@ -1,5 +1,3 @@
-
-// task project adjust
 "use client"
 
 import { useEffect, useState } from "react"
@@ -13,7 +11,7 @@ export function SundayRSVP() {
   const [adultCount, setAdultCount] = useState(1)
   const [childCount, setChildCount] = useState(0)
   const [notes, setNotes] = useState("")
-  const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
+  const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle") [modified]
 
   // Next Sunday's date
   const nextSunday = new Date()

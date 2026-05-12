@@ -1,9 +1,6 @@
-module.exports = {
+module.exports = { [modified]
   plugins: {
     tailwindcss: {},
     autoprefixer: {}
   }
 }
-
-
-// task project adjust

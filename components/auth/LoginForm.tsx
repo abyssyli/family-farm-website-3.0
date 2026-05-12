@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useState } from "react"
@@ -10,7 +12,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   const isConfigured = Boolean(supabase)
   const [email, setEmail] = useState("")
   const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle")
-  const [error, setError] = useState<string | null>(null) [modified]
+  const [error, setError] = useState<string | null>(null)
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault()

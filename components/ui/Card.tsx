@@ -24,9 +24,9 @@ export function Card({
 export function CardHeader({
   title,
   subtitle
-}: { [modified]
+}: {
   title: string
-  subtitle?: string | null
+  subtitle?: string | null [modified]
 }) {
   return (
     <div className="px-6 pt-6">

@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
@@ -68,7 +70,7 @@ export default async function RecipeDetailPage({
                   <li key={i} className="flex gap-4 text-sm text-zinc-700">
                     <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-zinc-200 bg-white font-mono text-xs font-bold text-zinc-500 shadow-sm">
                       {i + 1}
-                    </span> [modified]
+                    </span>
                     <p className="mt-0.5 leading-relaxed">{step}</p>
                   </li>
                 ))}

@@ -3,7 +3,7 @@
 import { useEffect } from "react"
 
 function cn(...parts: Array<string | false | null | undefined>) {
-  return parts.filter(Boolean).join(" ") [modified]
+  return parts.filter(Boolean).join(" ")
 }
 
 export function Modal({
@@ -57,7 +57,7 @@ export function Modal({
           </button>
         </div>
         <div className="px-6 py-5">{children}</div>
-      </div>
+      </div> [modified]
     </div>
   )
 }

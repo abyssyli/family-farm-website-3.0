@@ -20,7 +20,7 @@ export default withSentryConfig(nextConfig, {
   // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
 
   // Upload a larger set of source maps for prettier stack traces (increases build time)
-  widenClientFileUpload: true, [modified]
+  widenClientFileUpload: true,
 
   // Transpiles SDK to be compatible with IE11 (increases bundle size)
   transpileClientSDK: true,
@@ -40,3 +40,5 @@ export default withSentryConfig(nextConfig, {
   // https://vercel.com/docs/cron-jobs
   automaticVercelMonitors: true,
 });
+
+# minor content update

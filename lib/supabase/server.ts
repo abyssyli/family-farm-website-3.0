@@ -1,5 +1,3 @@
-
-// task project adjust
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"
@@ -12,8 +10,7 @@ export function createServerSupabaseClient() {
 
 export function createServiceRoleSupabaseClient() {
   const { url } = getSupabasePublicConfig()
-  const serviceRoleKey = getSupabaseServiceRoleKey()
+  const serviceRoleKey = getSupabaseServiceRoleKey() [modified]
   if (!url || !serviceRoleKey) return null
   return createClient<Database>(url, serviceRoleKey)
 }
-

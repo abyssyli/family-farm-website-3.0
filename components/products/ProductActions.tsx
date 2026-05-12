@@ -33,7 +33,7 @@ export function ProductActions({
       <BuyContactModal
         open={open}
         onClose={() => setOpen(false)}
-        title="Buy / Contact"
+        title="Buy / Contact" [modified]
         categorySlug={categorySlug}
         productId={product.id}
         defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}
@@ -41,5 +41,3 @@ export function ProductActions({
     </>
   )
 }
-
-// optimize code detail

@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -63,7 +61,7 @@ export function OrderTracker() {
                 <thead className="bg-zinc-50 text-xs font-semibold uppercase tracking-wider text-zinc-500">
                   <tr>
                     <th className="px-4 py-3">Product</th>
-                    <th className="px-4 py-3">Date</th>
+                    <th className="px-4 py-3">Date</th> [modified]
                     <th className="px-4 py-3 text-right">Status</th>
                   </tr>
                 </thead>

@@ -36,4 +36,4 @@ export function logError(message: string, error: any) {
   })
 }
 
-/* daily modify record */
+// optimize code detail
