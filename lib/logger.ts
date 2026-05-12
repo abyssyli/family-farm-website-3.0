@@ -12,7 +12,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
   }
 
   if (process.env.NODE_ENV === "production") {
-    // Send to Sentry if it's an error or warning [modified]
+    // Send to Sentry if it's an error or warning
     if (level === "error") {
       Sentry.captureException(data?.error || message, {
         extra: logEntry,
@@ -35,3 +35,5 @@ export function logError(message: string, error: any) {
     stack: error instanceof Error ? error.stack : undefined,
   })
 }
+
+# minor content update

@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -28,7 +26,7 @@ export function SundayRSVP() {
 
   async function fetchRSVP() {
     if (!supabase || !session) return
-    const { data, error } = await supabase
+    const { data, error } = await supabase [modified]
       .from("sunday_rsvps")
       .select("*")
       .eq("user_id", session.user.id)

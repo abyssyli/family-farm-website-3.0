@@ -25,4 +25,4 @@ export function EmptyState({
 }
 
 
-/* minor adjust */
+// optimize code detail

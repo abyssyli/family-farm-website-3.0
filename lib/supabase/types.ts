@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 export type Json =
   | string
   | number
@@ -186,7 +188,7 @@ export type Database = {
       inquiries: {
         Row: {
           id: string
-          user_id: string | null [modified]
+          user_id: string | null
           product_id: string | null
           category_slug: string
           address_id: string | null

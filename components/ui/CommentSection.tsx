@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -102,7 +104,7 @@ export function CommentSection({
                   {new Date(comment.created_at).toLocaleDateString()}
                 </span>
               </div>
-              <p className="text-sm text-zinc-700 whitespace-pre-wrap">{comment.content}</p> [modified]
+              <p className="text-sm text-zinc-700 whitespace-pre-wrap">{comment.content}</p>
             </div>
           ))
         )}

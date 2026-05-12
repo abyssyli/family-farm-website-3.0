@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useState } from "react"
@@ -16,7 +14,7 @@ export function ProductActions({
   categorySlug: string
 }) {
   const { skincareUrl } = getPublicEnv()
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false) [modified]
 
   if (product.externalUrl) {
     const href = skincareUrl

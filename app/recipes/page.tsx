@@ -15,7 +15,7 @@ export default async function RecipesPage() {
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
           Delicious ways to enjoy our farm-fresh ingredients at home.
-        </p>
+        </p> [modified]
       </div>
 
       {recipes.length === 0 ? (
@@ -25,7 +25,7 @@ export default async function RecipesPage() {
           {recipes.map((recipe) => (
             <Link key={recipe.id} href={`/recipes/${recipe.slug}`} className="group">
               <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
-                <div className="relative h-48 w-full"> [modified]
+                <div className="relative h-48 w-full">
                   <Image
                     src={recipe.imagePath || "/photos/background.jpg"}
                     alt={recipe.title}

@@ -3,14 +3,14 @@ import { Card } from "@/components/ui/Card"
 import type { CatalogJournalPost } from "@/lib/catalog-schema"
 
 export function JournalCard({ post }: { post: CatalogJournalPost }) {
-  return (
+  return ( [modified]
     <Card className="p-6">
       <h3 className="text-base font-semibold">
         <Link href={`/journal/${post.slug}`} className="hover:underline">
           {post.title}
         </Link>
       </h3>
-      {post.excerpt ? ( [modified]
+      {post.excerpt ? (
         <p className="mt-2 text-sm text-zinc-700">{post.excerpt}</p>
       ) : null}
       {post.publishedAt ? (

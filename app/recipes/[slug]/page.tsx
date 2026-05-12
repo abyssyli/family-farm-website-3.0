@@ -1,3 +1,5 @@
+
+// task project adjust
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
@@ -38,7 +40,7 @@ export default async function RecipeDetailPage({
             width={1400}
             height={1000}
             className="h-[360px] w-full object-cover sm:h-[440px]"
-            sizes="(max-width: 1024px) 100vw, 50vw" [modified]
+            sizes="(max-width: 1024px) 100vw, 50vw"
             priority
           />
         </div>

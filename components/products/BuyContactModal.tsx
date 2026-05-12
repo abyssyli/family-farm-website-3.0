@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -59,7 +61,7 @@ export function BuyContactModal({
       alert("Please select or add an address first.")
       return
     }
- [modified]
+
     setStatus("saving")
     await supabase.from("inquiries").insert({
       user_id: session?.user.id ?? null,

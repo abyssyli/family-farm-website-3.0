@@ -18,7 +18,7 @@ const variants: Record<Variant, string> = {
 
 export const Button = forwardRef<
   HTMLButtonElement,
-  React.ButtonHTMLAttributes<HTMLButtonElement> & { variant?: Variant }
+  React.ButtonHTMLAttributes<HTMLButtonElement> & { variant?: Variant } [modified]
 >(function Button({ className, variant = "primary", ...props }, ref) {
   return (
     <button
@@ -51,7 +51,7 @@ export function ButtonLink({
       >
         {children}
       </a>
-    ) [modified]
+    )
   }
   return (
     <Link href={href} className={cn(base, variants[variant], className)}>

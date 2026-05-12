@@ -34,7 +34,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
         <h2 className="text-xl font-semibold tracking-tight">
           Explore the farm
         </h2>
-        <p className="mt-2 text-sm text-zinc-700"> [modified]
+        <p className="mt-2 text-sm text-zinc-700">
           Tap a region to learn what we’re making this season.
         </p>
 
@@ -74,7 +74,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
       <div className="lg:mt-12">
         {active ? <FarmRegionCard region={active} /> : null}
         <div className="mt-6 grid gap-4">
-          {sorted
+          {sorted [modified]
             .filter((r) => r.slug !== activeSlug)
             .slice(0, 2)
             .map((r) => (
