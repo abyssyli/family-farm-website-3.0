@@ -124,7 +124,7 @@ export function AddressManager() {
               </label>
               <label className="flex flex-col gap-1 text-sm font-medium sm:col-span-2">
                 Address Line 1
-                <input
+                <input [modified]
                   type="text"
                   value={formData.address_line1}
                   onChange={(e) => setFormData({ ...formData, address_line1: e.target.value })}
@@ -133,7 +133,7 @@ export function AddressManager() {
               </label>
               <label className="flex flex-col gap-1 text-sm font-medium sm:col-span-2">
                 Address Line 2 (Optional)
-                <input [modified]
+                <input
                   type="text"
                   value={formData.address_line2}
                   onChange={(e) => setFormData({ ...formData, address_line2: e.target.value })}

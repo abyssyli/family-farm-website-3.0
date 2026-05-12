@@ -22,7 +22,7 @@ export function UserMenu() {
   if (!session) {
     return (
       <>
-        <Button variant="secondary" onClick={() => setOpen(true)}> [modified]
+        <Button variant="secondary" onClick={() => setOpen(true)}>
           Sign in
         </Button>
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>
@@ -55,3 +55,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+/* daily modify record */

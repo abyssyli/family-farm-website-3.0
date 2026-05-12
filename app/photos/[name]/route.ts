@@ -17,7 +17,7 @@ function contentTypeFromExt(ext: string) {
     default:
       return "application/octet-stream"
   }
-} [modified]
+}
 
 export async function GET(
   _request: Request,
@@ -34,7 +34,7 @@ export async function GET(
   if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) {
     return new NextResponse("Not found", { status: 404 })
   }
-
+ [modified]
   try {
     const filePath = join(process.cwd(), "photo", name)
     const bytes = await readFile(filePath)

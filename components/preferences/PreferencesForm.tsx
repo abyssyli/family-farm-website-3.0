@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -34,7 +32,7 @@ export function PreferencesForm({
 
   async function save() {
     if (!supabase || !userId) return
-    setStatus("saving")
+    setStatus("saving") [modified]
     await supabase.from("user_preferences").upsert({
       user_id: userId,
       preferred_categories: selected
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

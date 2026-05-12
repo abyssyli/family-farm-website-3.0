@@ -47,4 +47,4 @@ export function getPublicEnv() {
   }
 }
 
-/* daily modify record */
+/* minor adjust */

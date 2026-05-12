@@ -1,5 +1,5 @@
 
-// optimize code detail
+// task project adjust
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({

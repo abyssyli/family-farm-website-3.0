@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -48,7 +50,7 @@ export function SundayRSVP() {
     const rsvpData = {
       user_id: session.user.id,
       event_date: dateStr,
-      adult_count: adultCount, [modified]
+      adult_count: adultCount,
       child_count: childCount,
       notes: notes || null
     }

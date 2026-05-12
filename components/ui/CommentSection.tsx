@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -90,7 +88,7 @@ export function CommentSection({
         </div>
       )}
 
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6"> [modified]
         {comments.length === 0 ? (
           <p className="text-sm text-zinc-500 italic">No comments yet. Be the first!</p>
         ) : (

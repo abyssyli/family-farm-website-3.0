@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* daily modify record */
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig } from "./shared"
 import type { Database } from "./types"

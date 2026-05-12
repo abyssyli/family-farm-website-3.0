@@ -10,7 +10,7 @@ export function ProductActions({
   product,
   categorySlug
 }: {
-  product: CatalogProduct
+  product: CatalogProduct [modified]
   categorySlug: string
 }) {
   const { skincareUrl } = getPublicEnv()
@@ -41,5 +41,3 @@ export function ProductActions({
     </>
   )
 }
-
-// update log: auto edit 01

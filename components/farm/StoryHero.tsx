@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import Image from "next/image"
@@ -55,7 +53,7 @@ export function StoryHero() {
           warmth. Chicken and eggs come straight from the coop, woodcraft comes
           from the family shop, and Lisa’s skincare connects to our natural, small-batch
           way of life.
-        </p>
+        </p> [modified]
         <div className="mt-5 max-w-prose rounded-2xl border border-zinc-200 bg-white/70 p-4 text-sm text-zinc-700">
           Business hours: 7:00 AM – 10:00 PM
         </div>

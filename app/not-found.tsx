@@ -1,7 +1,7 @@
 import { ButtonLink } from "@/components/ui/Button"
 import { EmptyState } from "@/components/ui/EmptyState"
 
-export default function NotFound() { [modified]
+export default function NotFound() {
   return (
     <EmptyState
       title="Page not found"
@@ -10,3 +10,6 @@ export default function NotFound() { [modified]
     />
   )
 }
+
+
+// update log: auto edit 01
