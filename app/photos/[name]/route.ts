@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
@@ -8,7 +6,7 @@ import { createServerSupabaseClient } from "@/lib/supabase/server"
 function contentTypeFromExt(ext: string) {
   switch (ext.toLowerCase()) {
     case ".jpg":
-    case ".jpeg":
+    case ".jpeg": [modified]
       return "image/jpeg"
     case ".png":
       return "image/png"
@@ -51,4 +49,3 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
-

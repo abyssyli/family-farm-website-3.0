@@ -1,4 +1,4 @@
-import { getCatalog } from "@/lib/catalog" [modified]
+import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { AddressManager } from "@/components/preferences/AddressManager"
 import { OrderTracker } from "@/components/preferences/OrderTracker"
@@ -35,3 +35,6 @@ export default async function AccountPage() {
     </div>
   )
 }
+
+
+/* daily modify record */

@@ -129,7 +129,7 @@ export function BuyContactModal({
                 </Link>
               </div>
             )}
-          </div> [modified]
+          </div>
         )}
 
         {!session && (
@@ -176,3 +176,5 @@ export function BuyContactModal({
     </Modal>
   )
 }
+
+// task project adjust

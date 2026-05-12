@@ -2,7 +2,7 @@ import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
-import { UserMenu } from "@/components/auth/UserMenu" [modified]
+import { UserMenu } from "@/components/auth/UserMenu"
 
 export const metadata: Metadata = {
   title: "Paula’s Farm Family Marketplace",
@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="format-detection" content="telephone=no" />
-      </head>
+      </head> [modified]
       <body className="min-h-screen">
         <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4">
           <header className="flex items-center justify-between py-6">

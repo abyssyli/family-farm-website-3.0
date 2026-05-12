@@ -1,3 +1,5 @@
+
+# minor content update
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -39,7 +41,7 @@ export default async function JournalPostPage({
       <Card>
         <CardBody>
           <div className="prose prose-zinc max-w-none">
-            <p className="whitespace-pre-wrap">{post.body}</p> [modified]
+            <p className="whitespace-pre-wrap">{post.body}</p>
           </div>
         </CardBody>
       </Card>
@@ -54,3 +56,4 @@ export default async function JournalPostPage({
     </div>
   )
 }
+

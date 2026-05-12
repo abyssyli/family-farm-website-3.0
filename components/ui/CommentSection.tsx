@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -7,7 +5,7 @@ import { Button } from "@/components/ui/Button"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import Image from "next/image"
 
-export function CommentSection({
+export function CommentSection({ [modified]
   productId,
   journalPostId
 }: {

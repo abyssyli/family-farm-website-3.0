@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"
@@ -18,7 +20,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
         extra: logEntry,
       });
     } else if (level === "warn") {
-      Sentry.captureMessage(message, { [modified]
+      Sentry.captureMessage(message, {
         level: "warning",
         extra: logEntry,
       });

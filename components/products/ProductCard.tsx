@@ -56,10 +56,7 @@ export function ProductCard({
             View details →
           </Link>
         </div>
-      </div>
+      </div> [modified]
     </Card>
   )
 }
-
-
-// task project adjust

@@ -1,3 +1,5 @@
+
+// task project adjust
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -8,7 +10,7 @@ export default async function JournalIndexPage() {
   const posts = [...catalog.journalPosts].sort((a, b) => {
     const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
     const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0
-    return db - da [modified]
+    return db - da
   })
 
   if (posts.length === 0) {
@@ -39,3 +41,4 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
+
