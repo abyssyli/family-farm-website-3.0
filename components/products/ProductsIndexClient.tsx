@@ -27,7 +27,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       const { data: pref } = await supabase
         .from("user_preferences")
         .select("preferred_categories")
-        .eq("user_id", userId) [modified]
+        .eq("user_id", userId)
         .maybeSingle()
       if (pref?.preferred_categories) {
         setPreferred(pref.preferred_categories)
@@ -62,7 +62,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   }, [router, supabase])
 
   const orderedCategorySlugs = useMemo(() => {
-    const slugs = catalog.categories.map((c) => c.slug)
+    const slugs = catalog.categories.map((c) => c.slug) [modified]
     return sortCategorySlugsByPreference(slugs, preferred)
   }, [catalog.categories, preferred])
 

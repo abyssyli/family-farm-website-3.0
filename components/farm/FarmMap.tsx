@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import Image from "next/image"
@@ -44,7 +46,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
               src={coverImagePath}
               alt="Farm map"
               width={1400}
-              height={900} [modified]
+              height={900}
               className="h-[360px] w-full object-cover sm:h-[440px]"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />

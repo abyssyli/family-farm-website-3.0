@@ -259,7 +259,7 @@
     {
       "id": "skincare-muscle-creme",
       "categorySlug": "skincare",
-      "slug": "muscle-creme", [modified]
+      "slug": "muscle-creme",
       "name": "Muscle Crème",
       "description": "A soothing crème made with botanicals like boswellia, comfrey, peppermint, and eucalyptus.",
       "imagePath": "/photos/background.jpg",
@@ -303,3 +303,5 @@
     }
   ]
 }
+
+/* minor adjust */

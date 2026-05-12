@@ -1,9 +1,11 @@
+
+# minor content update
 "use client"
 
 import { useMemo, useState } from "react"
 import { Button } from "@/components/ui/Button"
 import { Modal } from "@/components/ui/Modal"
-import { LoginForm } from "./LoginForm" [modified]
+import { LoginForm } from "./LoginForm"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
 export function UserMenu() {

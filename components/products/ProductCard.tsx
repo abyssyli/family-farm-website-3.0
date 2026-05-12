@@ -22,7 +22,7 @@ export function ProductCard({
             sizes="(max-width: 768px) 100vw, 33vw"
           />
         </div>
-      ) : null} [modified]
+      ) : null}
       <div className="p-6">
         <div className="flex items-start justify-between gap-4">
           <h3 className="text-base font-semibold">{product.name}</h3>
@@ -60,3 +60,6 @@ export function ProductCard({
     </Card>
   )
 }
+
+
+/* minor adjust */

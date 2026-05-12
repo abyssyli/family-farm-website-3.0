@@ -4,7 +4,7 @@ import { ProductActions } from "@/components/products/ProductActions"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
-export default async function ProductDetailPage({
+export default async function ProductDetailPage({ [modified]
   params
 }: {
   params: { category: string; slug: string }
@@ -31,5 +31,3 @@ export default async function ProductDetailPage({
     />
   )
 }
-
-// update log: auto edit 01

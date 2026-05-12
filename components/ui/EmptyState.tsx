@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// task project adjust
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({

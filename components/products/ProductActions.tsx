@@ -6,7 +6,7 @@ import { BuyContactModal } from "./BuyContactModal"
 import { getPublicEnv } from "@/lib/env"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
-export function ProductActions({ [modified]
+export function ProductActions({
   product,
   categorySlug
 }: {
@@ -35,7 +35,7 @@ export function ProductActions({ [modified]
         onClose={() => setOpen(false)}
         title="Buy / Contact"
         categorySlug={categorySlug}
-        productId={product.id}
+        productId={product.id} [modified]
         defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}
       />
     </>

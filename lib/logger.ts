@@ -15,10 +15,10 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
     // Send to Sentry if it's an error or warning
     if (level === "error") {
       Sentry.captureException(data?.error || message, {
-        extra: logEntry,
+        extra: logEntry, [modified]
       });
     } else if (level === "warn") {
-      Sentry.captureMessage(message, { [modified]
+      Sentry.captureMessage(message, {
         level: "warning",
         extra: logEntry,
       });

@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -94,7 +92,7 @@ export function PreferencesForm({
                 disabled={status === "saving"}
               >
                 {status === "saved"
-                  ? "Saved"
+                  ? "Saved" [modified]
                   : status === "saving"
                     ? "Saving…"
                     : "Save preferences"}
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

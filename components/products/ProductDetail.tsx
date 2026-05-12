@@ -24,7 +24,7 @@ export function ProductDetail({
         : []
   const [currentIdx, setCurrentIdx] = useState(0)
 
-  const goPrev = () => {
+  const goPrev = () => { [modified]
     setCurrentIdx((prev) => (prev - 1 + images.length) % images.length)
   }
   const goNext = () => {
@@ -60,7 +60,7 @@ export function ProductDetail({
                         fill="currentColor"
                         className="h-5 w-5"
                       >
-                        <path [modified]
+                        <path
                           fillRule="evenodd"
                           d="M12.78 15.53a.75.75 0 0 1-1.06 0l-5-5a.75.75 0 0 1 0-1.06l5-5a.75.75 0 1 1 1.06 1.06L8.31 10l4.47 4.47a.75.75 0 0 1 0 1.06Z"
                           clipRule="evenodd"

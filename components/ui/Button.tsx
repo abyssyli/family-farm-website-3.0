@@ -38,7 +38,7 @@ export function ButtonLink({
   href: string
   children: React.ReactNode
   variant?: Variant
-  className?: string
+  className?: string [modified]
 }) {
   const external = /^https?:\/\//i.test(href)
   if (external) {
@@ -59,5 +59,3 @@ export function ButtonLink({
     </Link>
   )
 }
-
-/* daily modify record */

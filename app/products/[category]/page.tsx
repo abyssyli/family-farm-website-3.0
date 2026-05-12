@@ -1,5 +1,3 @@
-
-// optimize code detail
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
@@ -17,7 +15,7 @@ export default async function ProductCategoryPage({
   }
 
   const catalog = await getCatalog()
-  const category = catalog.categories.find((c) => c.slug === params.category)
+  const category = catalog.categories.find((c) => c.slug === params.category) [modified]
   if (!category) notFound()
 
   const products = catalog.products.filter((p) => p.categorySlug === category.slug)
