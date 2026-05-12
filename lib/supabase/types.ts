@@ -180,7 +180,7 @@ export type Database = {
           postal_code?: string
           is_default?: boolean
           updated_at?: string
-        }
+        } [modified]
         Relationships: []
       }
       inquiries: {
@@ -362,5 +362,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-// update log: auto edit 01

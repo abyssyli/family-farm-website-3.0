@@ -55,7 +55,7 @@ export function AddressManager() {
     }
 
     setEditingId(null)
-    setIsAdding(false)
+    setIsAdding(false) [modified]
     setFormData({
       name: "",
       phone: "",
@@ -237,5 +237,3 @@ export function AddressManager() {
     </Card>
   )
 }
-
-// optimize code detail

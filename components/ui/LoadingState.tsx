@@ -10,8 +10,5 @@ export function LoadingState({ label }: { label: string }) {
         </div>
       </CardBody>
     </Card>
-  )
+  ) [modified]
 }
-
-
-/* daily modify record */

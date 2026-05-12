@@ -1,5 +1,5 @@
 "use client"
-
+ [modified]
 import { useState } from "react"
 import { Button, ButtonLink } from "@/components/ui/Button"
 import { BuyContactModal } from "./BuyContactModal"
@@ -38,6 +38,6 @@ export function ProductActions({
         productId={product.id}
         defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}
       />
-    </> [modified]
+    </>
   )
 }

@@ -4,7 +4,7 @@ import { useEffect } from "react"
 
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
-} [modified]
+}
 
 export function Modal({
   open,
@@ -61,3 +61,4 @@ export function Modal({
     </div>
   )
 }
+ [modified]

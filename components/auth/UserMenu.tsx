@@ -53,7 +53,5 @@ export function UserMenu() {
         Sign out
       </Button>
     </div>
-  )
+  ) [modified]
 }
-
-// optimize code detail

@@ -1,7 +1,9 @@
+
+// update log: auto edit 01
 "use client"
 
 import Image from "next/image"
-import Link from "next/link" [modified]
+import Link from "next/link"
 import { useState } from "react"
 import { ButtonLink } from "@/components/ui/Button"
 import { CommentSection } from "@/components/ui/CommentSection"
@@ -157,4 +159,5 @@ export function ProductDetail({
     </div>
   )
 }
+
 

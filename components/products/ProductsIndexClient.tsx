@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import Link from "next/link"
@@ -98,7 +96,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           <p className="text-xs text-zinc-600">
             Updated {lastUpdate.toLocaleTimeString()}
           </p>
-        ) : null}
+        ) : null} [modified]
       </div>
 
       <SundayRSVP />

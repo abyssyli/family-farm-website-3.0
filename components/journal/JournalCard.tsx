@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Card } from "@/components/ui/Card"
+import { Card } from "@/components/ui/Card" [modified]
 import type { CatalogJournalPost } from "@/lib/catalog-schema"
 
 export function JournalCard({ post }: { post: CatalogJournalPost }) {
@@ -21,6 +21,3 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
     </Card>
   )
 }
-
-
-# minor content update

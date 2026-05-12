@@ -47,7 +47,7 @@ export function OrderTracker() {
   }
 
   if (!session) return null
- [modified]
+
   return (
     <Card>
       <CardHeader title="Order Tracking" subtitle="View your recent inquiries and their status." />
@@ -94,3 +94,5 @@ export function OrderTracker() {
     </Card>
   )
 }
+
+// optimize code detail

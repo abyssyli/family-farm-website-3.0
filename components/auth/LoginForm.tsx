@@ -48,7 +48,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     <form onSubmit={onSubmit} className="flex flex-col gap-3">
       <label className="text-sm font-medium">
         Email
-        <input
+        <input [modified]
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           type="email"
@@ -58,7 +58,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
           placeholder="you@example.com"
         />
       </label>
-      <Button type="submit" disabled={!isConfigured || status === "sending"}> [modified]
+      <Button type="submit" disabled={!isConfigured || status === "sending"}>
         {status === "sending" ? "Sending…" : "Send magic link"}
       </Button>
       {status === "sent" ? (

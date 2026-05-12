@@ -49,7 +49,7 @@ export function CommentSection({
       content: newComment.trim(),
       product_id: productId || null,
       journal_post_id: journalPostId || null
-    })
+    }) [modified]
 
     if (!error) {
       setNewComment("")
@@ -110,5 +110,3 @@ export function CommentSection({
     </div>
   )
 }
-
-// update log: auto edit 01

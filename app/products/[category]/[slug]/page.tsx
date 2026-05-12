@@ -5,7 +5,7 @@ import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
 export default async function ProductDetailPage({
-  params
+  params [modified]
 }: {
   params: { category: string; slug: string }
 }) {
@@ -31,5 +31,3 @@ export default async function ProductDetailPage({
     />
   )
 }
-
-// optimize code detail

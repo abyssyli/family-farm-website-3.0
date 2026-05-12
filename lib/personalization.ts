@@ -13,4 +13,4 @@ export function sortCategorySlugsByPreference(
 }
 
 
-/* daily modify record */
+// update log: auto edit 01

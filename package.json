@@ -8,7 +8,7 @@
     "start": "next start",
     "start:web": "next start",
     "start:worker": "npm run worker:sync",
-    "lint": "next lint",
+    "lint": "next lint", [modified]
     "typecheck": "tsc --noEmit",
     "test": "playwright test",
     "test:ui": "playwright test --ui",
@@ -36,4 +36,4 @@
     "tsx": "^4.19.2",
     "typescript": "^5.4.5"
   }
-} [modified]
+}

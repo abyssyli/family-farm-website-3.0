@@ -15,7 +15,7 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     }
   }, [supabase, journalPostId, session])
 
-  async function fetchLikes() { [modified]
+  async function fetchLikes() {
     if (!supabase) return
     
     // Get total likes
@@ -86,3 +86,5 @@ export function LikeButton({ journalPostId }: { journalPostId: string }) {
     </button>
   )
 }
+
+# minor content update

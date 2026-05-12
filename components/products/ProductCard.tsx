@@ -62,4 +62,4 @@ export function ProductCard({
 }
 
 
-// optimize code detail
+/* daily modify record */
