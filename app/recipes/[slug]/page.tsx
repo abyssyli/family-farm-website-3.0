@@ -18,7 +18,7 @@ export default async function RecipeDetailPage({
     <div className="flex flex-col gap-8 pb-12">
       <div className="flex flex-col gap-4">
         <p className="text-sm font-medium text-farm-800">
-          <Link href="/recipes" className="hover:underline"> [modified]
+          <Link href="/recipes" className="hover:underline">
             Farm Recipes
           </Link>
         </p>
@@ -68,7 +68,7 @@ export default async function RecipeDetailPage({
                   <li key={i} className="flex gap-4 text-sm text-zinc-700">
                     <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-zinc-200 bg-white font-mono text-xs font-bold text-zinc-500 shadow-sm">
                       {i + 1}
-                    </span>
+                    </span> [modified]
                     <p className="mt-0.5 leading-relaxed">{step}</p>
                   </li>
                 ))}

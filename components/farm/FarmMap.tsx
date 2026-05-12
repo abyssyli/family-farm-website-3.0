@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+// task project adjust
 "use client"
 
 import Image from "next/image"

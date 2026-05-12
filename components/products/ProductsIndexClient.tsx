@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import Link from "next/link"
@@ -62,7 +64,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   }, [router, supabase])
 
   const orderedCategorySlugs = useMemo(() => {
-    const slugs = catalog.categories.map((c) => c.slug) [modified]
+    const slugs = catalog.categories.map((c) => c.slug)
     return sortCategorySlugsByPreference(slugs, preferred)
   }, [catalog.categories, preferred])
 

@@ -15,7 +15,7 @@ export default async function ProductCategoryPage({
   }
 
   const catalog = await getCatalog()
-  const category = catalog.categories.find((c) => c.slug === params.category) [modified]
+  const category = catalog.categories.find((c) => c.slug === params.category)
   if (!category) notFound()
 
   const products = catalog.products.filter((p) => p.categorySlug === category.slug)
@@ -40,3 +40,5 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
+
+# minor content update

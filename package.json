@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "start:web": "next start",
-    "start:worker": "npm run worker:sync", [modified]
+    "start:worker": "npm run worker:sync",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "test": "playwright test",
@@ -37,3 +37,5 @@
     "typescript": "^5.4.5"
   }
 }
+
+/* daily modify record */

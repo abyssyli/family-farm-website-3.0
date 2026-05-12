@@ -13,4 +13,4 @@ export function getSupabaseServiceRoleKey() {
   return env.SUPABASE_SERVICE_ROLE_KEY
 }
 
-/* minor adjust */
+# minor content update

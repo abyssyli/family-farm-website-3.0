@@ -15,7 +15,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
     // Send to Sentry if it's an error or warning
     if (level === "error") {
       Sentry.captureException(data?.error || message, {
-        extra: logEntry, [modified]
+        extra: logEntry,
       });
     } else if (level === "warn") {
       Sentry.captureMessage(message, {
@@ -35,3 +35,5 @@ export function logError(message: string, error: any) {
     stack: error instanceof Error ? error.stack : undefined,
   })
 }
+
+/* daily modify record */

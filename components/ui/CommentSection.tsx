@@ -111,4 +111,4 @@ export function CommentSection({
   )
 }
 
-# minor content update
+// optimize code detail

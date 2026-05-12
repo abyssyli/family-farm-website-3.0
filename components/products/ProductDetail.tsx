@@ -24,7 +24,7 @@ export function ProductDetail({
         : []
   const [currentIdx, setCurrentIdx] = useState(0)
 
-  const goPrev = () => { [modified]
+  const goPrev = () => {
     setCurrentIdx((prev) => (prev - 1 + images.length) % images.length)
   }
   const goNext = () => {
@@ -158,3 +158,4 @@ export function ProductDetail({
   )
 }
 
+ [modified]

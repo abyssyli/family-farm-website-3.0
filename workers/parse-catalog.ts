@@ -24,4 +24,4 @@ export async function loadCatalogFromSource(): Promise<{
 }
 
 
-// update log: auto edit 01
+/* minor adjust */

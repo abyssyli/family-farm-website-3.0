@@ -1,5 +1,3 @@
-
-# minor content update
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -19,7 +17,7 @@ export default async function RecipesPage() {
           Delicious ways to enjoy our farm-fresh ingredients at home.
         </p>
       </div>
-
+ [modified]
       {recipes.length === 0 ? (
         <p className="text-sm text-zinc-500 italic">Coming soon! We're gathering our favorite family recipes.</p>
       ) : (
