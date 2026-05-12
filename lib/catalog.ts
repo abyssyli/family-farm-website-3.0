@@ -114,7 +114,7 @@ export async function getCatalog(): Promise<Catalog> {
     slug: r.slug,
     title: r.title,
     description: r.description,
-    imagePath: normalizeFarmRegionImagePath(r.slug, r.image_path), [modified]
+    imagePath: normalizeFarmRegionImagePath(r.slug, r.image_path),
     ctaLabel: r.cta_label,
     ctaHref: r.cta_href,
     x: r.x,
@@ -184,3 +184,5 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+
+/* daily modify record */

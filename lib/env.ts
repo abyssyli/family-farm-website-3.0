@@ -15,7 +15,7 @@ let cachedEnv: Env | null = null
 
 export function getEnv(): Env {
   if (cachedEnv) return cachedEnv
- [modified]
+
   const result = envSchema.safeParse({
     NEXT_PUBLIC_SUPABASE_URL: process.env.NEXT_PUBLIC_SUPABASE_URL,
     NEXT_PUBLIC_SUPABASE_ANON_KEY: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
@@ -46,3 +46,5 @@ export function getPublicEnv() {
     skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL,
   }
 }
+
+/* minor adjust */

@@ -16,8 +16,8 @@ export function Card({
         className
       )}
     >
-      {children}
-    </div> [modified]
+      {children} [modified]
+    </div>
   )
 }
 

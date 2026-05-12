@@ -1,3 +1,5 @@
+
+/* daily modify record */
 {
   "categories": [
     { "slug": "eggs", "name": "Chicken and Eggs", "sortOrder": 0 },
@@ -73,7 +75,7 @@
       "id": "food-egg-pancakes-toppings",
       "categorySlug": "food",
       "slug": "egg-pancakes-toppings",
-      "name": "Egg pancakes with various toppings", [modified]
+      "name": "Egg pancakes with various toppings",
       "description": "Versatile egg pancakes served with a variety of fresh toppings.",
       "imagePath": "/photos/eat10.jpg",
       "imagePaths": ["/photos/eat10.jpg", "/photos/eat11.jpg", "/photos/eat12.jpg"],

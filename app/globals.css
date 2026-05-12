@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 html,
-body { [modified]
+body {
   height: 100%;
 }
 
 body {
   @apply bg-farm-50 text-zinc-900;
 }
+ [modified]

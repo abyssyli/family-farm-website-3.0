@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Image from "next/image"
@@ -117,7 +119,7 @@ export function ProductDetail({
           </p>
           <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
             {product.name}
-          </h1> [modified]
+          </h1>
           {product.description ? (
             <p className="mt-4 max-w-prose text-base text-zinc-700 whitespace-pre-wrap">
               {product.description}
@@ -157,4 +159,5 @@ export function ProductDetail({
     </div>
   )
 }
+
 

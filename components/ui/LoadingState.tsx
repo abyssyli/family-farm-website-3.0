@@ -1,7 +1,7 @@
 import { Card, CardBody } from "./Card"
 
-export function LoadingState({ label }: { label: string }) { [modified]
-  return (
+export function LoadingState({ label }: { label: string }) {
+  return ( [modified]
     <Card>
       <CardBody>
         <div className="flex items-center gap-3">

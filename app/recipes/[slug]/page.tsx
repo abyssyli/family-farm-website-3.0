@@ -13,7 +13,7 @@ export default async function RecipeDetailPage({
   const catalog = await getCatalog()
   const recipe = catalog.recipes.find((r) => r.slug === params.slug)
   if (!recipe) notFound()
- [modified]
+
   return (
     <div className="flex flex-col gap-8 pb-12">
       <div className="flex flex-col gap-4">
@@ -30,7 +30,7 @@ export default async function RecipeDetailPage({
         </p>
       </div>
 
-      <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
+      <div className="grid gap-10 lg:grid-cols-2 lg:items-start"> [modified]
         <div className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
           <Image
             src={recipe.imagePath || "/photos/background.jpg"}

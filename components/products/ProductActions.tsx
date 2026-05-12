@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useState } from "react"
@@ -7,7 +9,7 @@ import { getPublicEnv } from "@/lib/env"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductActions({
-  product, [modified]
+  product,
   categorySlug
 }: {
   product: CatalogProduct

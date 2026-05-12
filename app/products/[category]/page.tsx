@@ -1,6 +1,8 @@
+
+/* daily modify record */
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
-import { ProductGrid } from "@/components/products/ProductGrid" [modified]
+import { ProductGrid } from "@/components/products/ProductGrid"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 

@@ -10,7 +10,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
     message,
     ...data,
   }
-
+ [modified]
   if (process.env.NODE_ENV === "production") {
     // Send to Sentry if it's an error or warning
     if (level === "error") {
@@ -35,5 +35,3 @@ export function logError(message: string, error: any) {
     stack: error instanceof Error ? error.stack : undefined,
   })
 }
-
-/* daily modify record */
