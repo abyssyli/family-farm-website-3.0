@@ -41,7 +41,7 @@ export async function GET(
     const ext = extname(name)
     return new NextResponse(bytes, {
       headers: {
-        "content-type": contentTypeFromExt(ext), [modified]
+        "content-type": contentTypeFromExt(ext),
         "cache-control": "public, max-age=31536000, immutable"
       }
     })
@@ -49,3 +49,6 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+
+
+/* minor adjust */

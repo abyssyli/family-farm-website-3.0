@@ -1,5 +1,5 @@
 
-# minor content update
+// optimize code detail
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({

@@ -125,7 +125,7 @@ export function StoryHero() {
           </ButtonLink>
         </div>
       </div>
-      <div className="relative overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm"> [modified]
+      <div className="relative overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
         <Image
           src="/photos/Home.jpg"
           alt="Paula’s farm home"
@@ -138,3 +138,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+/* daily modify record */

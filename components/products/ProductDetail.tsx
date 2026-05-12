@@ -135,7 +135,7 @@ export function ProductDetail({
               }`}
             >
               {product.stockQuantity > 0
-                ? `${product.stockQuantity} items remaining today`
+                ? `${product.stockQuantity} items remaining today` [modified]
                 : "Out of stock for today"}
             </p>
           )}
@@ -158,6 +158,3 @@ export function ProductDetail({
   )
 }
 
-
-
-// update log: auto edit 01

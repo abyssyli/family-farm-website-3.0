@@ -1,5 +1,5 @@
 import { readFile } from "node:fs/promises"
-import { CatalogSchema, type Catalog } from "@/lib/catalog-schema" [modified]
+import { CatalogSchema, type Catalog } from "@/lib/catalog-schema"
 
 export async function loadCatalogFromSource(): Promise<{
   catalog: Catalog
@@ -22,3 +22,6 @@ export async function loadCatalogFromSource(): Promise<{
   const catalog = CatalogSchema.parse(json)
   return { catalog, sourceLabel: localPath }
 }
+
+
+# minor content update

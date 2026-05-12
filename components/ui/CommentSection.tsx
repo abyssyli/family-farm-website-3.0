@@ -78,7 +78,7 @@ export function CommentSection({
           />
           <Button type="submit" disabled={isSubmitting || !newComment.trim()} className="self-start">
             {isSubmitting ? "Posting..." : "Post Comment"}
-          </Button>
+          </Button> [modified]
         </form>
       ) : (
         <div className="rounded-2xl bg-zinc-50 p-6 text-center">
@@ -110,5 +110,3 @@ export function CommentSection({
     </div>
   )
 }
-
-/* minor adjust */

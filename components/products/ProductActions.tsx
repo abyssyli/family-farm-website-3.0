@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useState } from "react"
@@ -33,7 +35,7 @@ export function ProductActions({
       <BuyContactModal
         open={open}
         onClose={() => setOpen(false)}
-        title="Buy / Contact" [modified]
+        title="Buy / Contact"
         categorySlug={categorySlug}
         productId={product.id}
         defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}

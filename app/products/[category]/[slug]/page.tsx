@@ -32,4 +32,4 @@ export default async function ProductDetailPage({
   )
 }
 
-// optimize code detail
+# minor content update

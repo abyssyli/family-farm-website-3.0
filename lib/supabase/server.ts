@@ -10,7 +10,10 @@ export function createServerSupabaseClient() {
 
 export function createServiceRoleSupabaseClient() {
   const { url } = getSupabasePublicConfig()
-  const serviceRoleKey = getSupabaseServiceRoleKey() [modified]
+  const serviceRoleKey = getSupabaseServiceRoleKey()
   if (!url || !serviceRoleKey) return null
   return createClient<Database>(url, serviceRoleKey)
 }
+
+
+// optimize code detail

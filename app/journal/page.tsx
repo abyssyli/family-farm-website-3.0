@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -33,7 +31,7 @@ export default async function JournalIndexPage() {
           Small stories from the farm, the shop, and the family.
         </p>
       </div>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"> [modified]
         {posts.map((p) => (
           <JournalCard key={p.id} post={p} />
         ))}
@@ -41,4 +39,3 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
-

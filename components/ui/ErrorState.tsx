@@ -1,5 +1,5 @@
 import { Card, CardBody } from "./Card"
-
+ [modified]
 export function ErrorState({
   title,
   message,
@@ -8,7 +8,7 @@ export function ErrorState({
   title: string
   message: string
   action?: React.ReactNode
-}) { [modified]
+}) {
   return (
     <Card className="border-red-200">
       <CardBody>

@@ -11,7 +11,7 @@ export function SundayRSVP() {
   const [adultCount, setAdultCount] = useState(1)
   const [childCount, setChildCount] = useState(0)
   const [notes, setNotes] = useState("")
-  const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle") [modified]
+  const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
   // Next Sunday's date
   const nextSunday = new Date()
@@ -129,3 +129,5 @@ export function SundayRSVP() {
     </Card>
   )
 }
+
+/* minor adjust */

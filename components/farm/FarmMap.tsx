@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import Image from "next/image"
@@ -66,7 +64,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
                   onClick={() => setActiveSlug(r.slug)}
                 >
                   {r.title}
-                </button>
+                </button> [modified]
               )
             })}
           </div>
