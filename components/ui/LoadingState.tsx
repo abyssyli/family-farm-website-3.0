@@ -1,5 +1,5 @@
 
-/* minor adjust */
+/* daily modify record */
 import { Card, CardBody } from "./Card"
 
 export function LoadingState({ label }: { label: string }) {

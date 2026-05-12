@@ -46,7 +46,7 @@ export function CommentSection({
     setIsSubmitting(true)
     const { error } = await supabase.from("comments").insert({
       user_id: session.user.id,
-      content: newComment.trim(), [modified]
+      content: newComment.trim(),
       product_id: productId || null,
       journal_post_id: journalPostId || null
     })
@@ -102,7 +102,7 @@ export function CommentSection({
                   {new Date(comment.created_at).toLocaleDateString()}
                 </span>
               </div>
-              <p className="text-sm text-zinc-700 whitespace-pre-wrap">{comment.content}</p>
+              <p className="text-sm text-zinc-700 whitespace-pre-wrap">{comment.content}</p> [modified]
             </div>
           ))
         )}

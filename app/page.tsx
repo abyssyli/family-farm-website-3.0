@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import Link from "next/link"
 import Image from "next/image"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -65,7 +67,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {catalog.recipes.length > 0 && ( [modified]
+      {catalog.recipes.length > 0 && (
         <section>
           <div className="flex items-end justify-between gap-6">
             <div>

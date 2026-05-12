@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect, useState } from "react"
@@ -7,7 +5,7 @@ import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import type { Database } from "@/lib/supabase/types"
 import Link from "next/link"
-
+ [modified]
 type Inquiry = Database["public"]["Tables"]["inquiries"]["Row"] & {
   products: { name: string } | null
 }

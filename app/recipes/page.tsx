@@ -1,5 +1,3 @@
-
-// task project adjust
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardBody } from "@/components/ui/Card"
@@ -27,7 +25,7 @@ export default async function RecipesPage() {
           {recipes.map((recipe) => (
             <Link key={recipe.id} href={`/recipes/${recipe.slug}`} className="group">
               <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
-                <div className="relative h-48 w-full">
+                <div className="relative h-48 w-full"> [modified]
                   <Image
                     src={recipe.imagePath || "/photos/background.jpg"}
                     alt={recipe.title}

@@ -51,7 +51,7 @@ export function ButtonLink({
       >
         {children}
       </a>
-    )
+    ) [modified]
   }
   return (
     <Link href={href} className={cn(base, variants[variant], className)}>
@@ -59,5 +59,3 @@ export function ButtonLink({
     </Link>
   )
 }
-
-// optimize code detail

@@ -108,7 +108,7 @@ export type Database = {
           image_path?: string | null
           cta_label?: string | null
           cta_href?: string | null
-          x: number [modified]
+          x: number
           y: number
         }
         Update: {
@@ -186,7 +186,7 @@ export type Database = {
       inquiries: {
         Row: {
           id: string
-          user_id: string | null
+          user_id: string | null [modified]
           product_id: string | null
           category_slug: string
           address_id: string | null

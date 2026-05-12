@@ -1,5 +1,3 @@
-
-# minor content update
 import * as Sentry from "@sentry/nextjs";
 
 type LogLevel = "info" | "warn" | "error"
@@ -14,7 +12,7 @@ export function logEvent(level: LogLevel, message: string, data?: any) {
   }
 
   if (process.env.NODE_ENV === "production") {
-    // Send to Sentry if it's an error or warning
+    // Send to Sentry if it's an error or warning [modified]
     if (level === "error") {
       Sentry.captureException(data?.error || message, {
         extra: logEntry,

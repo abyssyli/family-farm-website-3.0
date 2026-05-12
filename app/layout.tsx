@@ -55,7 +55,7 @@ export default function RootLayout({
           </header>
           <main className="flex-1 pb-16">{children}</main>
           <footer className="border-t border-zinc-200 py-10 text-sm text-zinc-600">
-            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"> [modified]
               <p>Made in Amarillo, Texas.</p>
               <p>© {new Date().getFullYear()} Paula’s Farm Family Marketplace</p>
             </div>
@@ -65,5 +65,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-/* daily modify record */

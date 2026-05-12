@@ -59,7 +59,7 @@ export function BuyContactModal({
       alert("Please select or add an address first.")
       return
     }
-
+ [modified]
     setStatus("saving")
     await supabase.from("inquiries").insert({
       user_id: session?.user.id ?? null,
@@ -176,5 +176,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-
-// task project adjust

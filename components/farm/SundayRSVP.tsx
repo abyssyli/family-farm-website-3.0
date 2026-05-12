@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -83,7 +85,7 @@ export function SundayRSVP() {
               <label className="flex flex-col gap-1 text-sm font-medium">
                 Adults
                 <input
-                  type="number" [modified]
+                  type="number"
                   min={1}
                   max={20}
                   value={adultCount}
