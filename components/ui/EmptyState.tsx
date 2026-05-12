@@ -7,7 +7,7 @@ export function EmptyState({
 }: {
   title: string
   message: string
-  action?: React.ReactNode
+  action?: React.ReactNode [modified]
 }) {
   return (
     <Card>
@@ -23,6 +23,3 @@ export function EmptyState({
     </Card>
   )
 }
-
-
-/* daily modify record */

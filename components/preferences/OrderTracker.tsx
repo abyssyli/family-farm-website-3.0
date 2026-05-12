@@ -1,5 +1,5 @@
 "use client"
-
+ [modified]
 import { useEffect, useState } from "react"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
@@ -63,7 +63,7 @@ export function OrderTracker() {
                     <th className="px-4 py-3">Product</th>
                     <th className="px-4 py-3">Date</th>
                     <th className="px-4 py-3 text-right">Status</th>
-                  </tr> [modified]
+                  </tr>
                 </thead>
                 <tbody className="divide-y divide-zinc-200">
                   {inquiries.map((inquiry) => (

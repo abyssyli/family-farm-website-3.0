@@ -107,7 +107,7 @@ export async function getCatalog(): Promise<Catalog> {
     excerpt: j.excerpt,
     body: j.body,
     publishedAt: j.published_at ? new Date(j.published_at).toISOString() : null
-  }))
+  })) [modified]
 
   const dbFarmRegions = regionsRes.data.map((r) => ({
     id: r.id,
@@ -133,7 +133,7 @@ export async function getCatalog(): Promise<Catalog> {
     const seedProduct = seedCatalog.products.find((sp) => sp.id === p.id)
     const finalImagePaths =
       p.imagePaths && p.imagePaths.length > 0
-        ? p.imagePaths [modified]
+        ? p.imagePaths
         : seedProduct?.imagePaths && seedProduct.imagePaths.length > 0
           ? seedProduct.imagePaths
           : p.imagePath

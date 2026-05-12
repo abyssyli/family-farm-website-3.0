@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -58,7 +56,7 @@ export function SundayRSVP() {
     const { error } = await supabase
       .from("sunday_rsvps")
       .upsert(rsvpData, { onConflict: "user_id,event_date" })
-
+ [modified]
     if (!error) {
       setStatus("saved")
       fetchRSVP()

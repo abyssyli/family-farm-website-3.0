@@ -122,7 +122,7 @@ export function ProductDetail({
             <p className="mt-4 max-w-prose text-base text-zinc-700 whitespace-pre-wrap">
               {product.description}
             </p>
-          ) : null}
+          ) : null} [modified]
           {product.priceHint ? (
             <p className="mt-4 text-sm font-medium text-zinc-700">
               {product.priceHint}
@@ -158,6 +158,3 @@ export function ProductDetail({
   )
 }
 
-
-
-// update log: auto edit 01

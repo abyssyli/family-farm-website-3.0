@@ -1,7 +1,7 @@
 import { z } from "zod"
 
 const envSchema = z.object({
-  NEXT_PUBLIC_SUPABASE_URL: z.string().url(), [modified]
+  NEXT_PUBLIC_SUPABASE_URL: z.string().url(),
   NEXT_PUBLIC_SUPABASE_ANON_KEY: z.string().min(1),
   SUPABASE_SERVICE_ROLE_KEY: z.string().min(1).optional(),
   NEXT_PUBLIC_CONTACT_PHONE: z.string().default("+1 (806) 290-4949"),
@@ -46,3 +46,5 @@ export function getPublicEnv() {
     skincareUrl: env.NEXT_PUBLIC_SKINCARE_URL,
   }
 }
+
+# minor content update

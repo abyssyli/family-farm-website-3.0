@@ -46,7 +46,7 @@ export default function RootLayout({
               </Link>
               <Link href="/journal" className="hover:text-farm-700">
                 Journal
-              </Link>
+              </Link> [modified]
               <Link href="/account" className="hover:text-farm-700">
                 Account
               </Link>
@@ -65,5 +65,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-// update log: auto edit 01
