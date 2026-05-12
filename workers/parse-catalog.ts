@@ -23,5 +23,3 @@ export async function loadCatalogFromSource(): Promise<{
   return { catalog, sourceLabel: localPath }
 }
 
-
-// update log: auto edit 01

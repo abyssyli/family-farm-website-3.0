@@ -1,5 +1,3 @@
-
-# minor content update
 import { z } from "zod"
 
 export const CategorySchema = z.object({

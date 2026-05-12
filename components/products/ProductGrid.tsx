@@ -21,5 +21,3 @@ export function ProductGrid({
   )
 }
 
-
-// update log: auto edit 01

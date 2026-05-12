@@ -15,5 +15,3 @@ export function createServiceRoleSupabaseClient() {
   return createClient<Database>(url, serviceRoleKey)
 }
 
-
-# minor content update

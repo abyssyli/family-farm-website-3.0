@@ -176,5 +176,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-
-// task project adjust

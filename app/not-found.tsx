@@ -11,5 +11,3 @@ export default function NotFound() {
   )
 }
 
-
-// update log: auto edit 01

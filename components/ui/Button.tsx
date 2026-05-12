@@ -32,7 +32,7 @@ export const Button = forwardRef<
 export function ButtonLink({
   href,
   children,
-  variant = "primary", [modified]
+  variant = "primary",
   className
 }: {
   href: string

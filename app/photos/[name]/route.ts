@@ -6,7 +6,7 @@ import { createServerSupabaseClient } from "@/lib/supabase/server"
 function contentTypeFromExt(ext: string) {
   switch (ext.toLowerCase()) {
     case ".jpg":
-    case ".jpeg": [modified]
+    case ".jpeg":
       return "image/jpeg"
     case ".png":
       return "image/png"
@@ -49,3 +49,4 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 }
+

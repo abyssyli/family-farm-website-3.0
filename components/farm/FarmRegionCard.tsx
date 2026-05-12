@@ -33,5 +33,3 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
     </Card>
   )
 }
-
-// task project adjust

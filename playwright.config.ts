@@ -1,5 +1,3 @@
-
-// task project adjust
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({

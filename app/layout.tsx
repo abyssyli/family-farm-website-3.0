@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="format-detection" content="telephone=no" />
-      </head> [modified]
+      </head>
       <body className="min-h-screen">
         <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4">
           <header className="flex items-center justify-between py-6">

@@ -138,5 +138,3 @@ export function StoryHero() {
     </section>
   )
 }
-
-/* minor adjust */

@@ -21,5 +21,6 @@ export function EmptyState({
         </div>
       </CardBody>
     </Card>
-  ) [modified]
+  )
 }
+

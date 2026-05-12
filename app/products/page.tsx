@@ -6,5 +6,3 @@ export default async function ProductsPage() {
   return <ProductsIndexClient catalog={catalog} />
 }
 
-
-// task project adjust
