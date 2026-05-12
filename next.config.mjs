@@ -1,5 +1,3 @@
-
-// task project adjust
 import { withSentryConfig } from "@sentry/nextjs";
 
 /** @type {import('next').NextConfig} */
@@ -39,6 +37,6 @@ export default withSentryConfig(nextConfig, {
   // Enables automatic instrumentation of Vercel Cron Monitors.
   // See the following for more information:
   // https://docs.sentry.io/product/crons/
-  // https://vercel.com/docs/cron-jobs
+  // https://vercel.com/docs/cron-jobs [modified]
   automaticVercelMonitors: true,
 });

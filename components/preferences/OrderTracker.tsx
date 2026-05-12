@@ -34,7 +34,7 @@ export function OrderTracker() {
   const getStatusColor = (status: string) => {
     switch (status) {
       case "pending":
-        return "bg-amber-100 text-amber-700 border-amber-200" [modified]
+        return "bg-amber-100 text-amber-700 border-amber-200"
       case "confirmed":
         return "bg-blue-100 text-blue-700 border-blue-200"
       case "completed":
@@ -47,7 +47,7 @@ export function OrderTracker() {
   }
 
   if (!session) return null
-
+ [modified]
   return (
     <Card>
       <CardHeader title="Order Tracking" subtitle="View your recent inquiries and their status." />

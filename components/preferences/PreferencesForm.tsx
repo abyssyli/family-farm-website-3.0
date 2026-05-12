@@ -1,5 +1,3 @@
-
-/* daily modify record */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
@@ -42,7 +40,7 @@ export function PreferencesForm({
     setStatus("saved")
     window.setTimeout(() => setStatus("idle"), 1200)
   }
-
+ [modified]
   return (
     <Card>
       <CardHeader
@@ -110,4 +108,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-

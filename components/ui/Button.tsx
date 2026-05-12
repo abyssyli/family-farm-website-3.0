@@ -25,7 +25,7 @@ export const Button = forwardRef<
       ref={ref}
       className={cn(base, variants[variant], className)}
       {...props}
-    /> [modified]
+    />
   )
 })
 
@@ -59,3 +59,5 @@ export function ButtonLink({
     </Link>
   )
 }
+
+// update log: auto edit 01

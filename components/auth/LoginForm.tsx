@@ -58,7 +58,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
           placeholder="you@example.com"
         />
       </label>
-      <Button type="submit" disabled={!isConfigured || status === "sending"}>
+      <Button type="submit" disabled={!isConfigured || status === "sending"}> [modified]
         {status === "sending" ? "Sending…" : "Send magic link"}
       </Button>
       {status === "sent" ? (
@@ -80,5 +80,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
-
-/* minor adjust */

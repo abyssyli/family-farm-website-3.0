@@ -1,9 +1,7 @@
-
-/* minor adjust */
 "use client"
 
 import Image from "next/image"
-import Link from "next/link"
+import Link from "next/link" [modified]
 import { useState } from "react"
 import { ButtonLink } from "@/components/ui/Button"
 import { CommentSection } from "@/components/ui/CommentSection"
@@ -159,5 +157,4 @@ export function ProductDetail({
     </div>
   )
 }
-
 

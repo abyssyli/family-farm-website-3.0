@@ -31,7 +31,7 @@ export function ProductCard({
           {product.description}
         </p>
         <div className="mt-4 flex items-center justify-between">
-          <p className="text-sm font-medium text-zinc-900"> [modified]
+          <p className="text-sm font-medium text-zinc-900">
             {product.priceHint}
           </p>
           {product.stockQuantity !== null && product.stockQuantity !== undefined && (
@@ -60,3 +60,6 @@ export function ProductCard({
     </Card>
   )
 }
+
+
+// optimize code detail

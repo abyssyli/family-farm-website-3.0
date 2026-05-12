@@ -65,8 +65,8 @@ export async function getCatalog(): Promise<Catalog> {
   const normalizeFarmRegionImagePath = (slug: string, imagePath: string | null) => {
     if (slug === "chicken-coop") {
       return imagePath &&
-        (imagePath.includes("/photos/chicken") || imagePath.includes("/photos/egg")) [modified]
-        ? imagePath
+        (imagePath.includes("/photos/chicken") || imagePath.includes("/photos/egg"))
+        ? imagePath [modified]
         : "/photos/chicken.jpg"
     }
     if (slug === "woodshop") {

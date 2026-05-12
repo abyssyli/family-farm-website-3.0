@@ -33,5 +33,5 @@ export default async function AccountPage() {
 
       <PreferencesForm categories={categories} />
     </div>
-  )
-} [modified]
+  ) [modified]
+}

@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -87,7 +89,7 @@ async function runOnce() {
       message
     })
     throw e
-  } [modified]
+  }
 }
 
 async function main() {
@@ -115,3 +117,4 @@ main().catch((e) => {
   console.error(message)
   process.exit(1)
 })
+

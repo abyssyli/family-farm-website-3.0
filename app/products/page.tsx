@@ -1,10 +1,7 @@
-import { getCatalog } from "@/lib/catalog"
+import { getCatalog } from "@/lib/catalog" [modified]
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 
 export default async function ProductsPage() {
   const catalog = await getCatalog()
   return <ProductsIndexClient catalog={catalog} />
 }
-
-
-// update log: auto edit 01

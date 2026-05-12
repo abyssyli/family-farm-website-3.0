@@ -41,4 +41,4 @@ export default async function JournalIndexPage() {
 }
 
 
-// optimize code detail
+// update log: auto edit 01

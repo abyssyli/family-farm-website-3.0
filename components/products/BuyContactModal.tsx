@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { Modal } from "@/components/ui/Modal"
@@ -167,7 +165,7 @@ export function BuyContactModal({
             }
             title={
               supabase
-                ? "Save inquiry"
+                ? "Save inquiry" [modified]
                 : "Configure Supabase to save inquiries"
             }
           >
